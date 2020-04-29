@@ -6,10 +6,18 @@
 /*---------- Header & Footer ----------*/
 .bgnavcolor{
     background-color: #eae9fb;
+    width: auto;
 }
 
-/*---------- Main Body ----------*/
+.bg-banner{
+    background-color: #f8f8f8;
+    width: auto;
+}
 
+.bg-main-content{
+    background-color: #ffffff;
+    width: auto;
+}
 
 
 /*------------------------- Header -------------------------*/
@@ -84,13 +92,288 @@
 
 }
 
-/*---------- Navigation Menu ----------*/
-
 .navbar-toggler{
     background-color: #4c4c4c;
 }
 
 
+/*------------------------- Main Body -------------------------*/
+
+.monkey{
+    width: 100%;
+    height: 25em;
+    background-color: #f8f8f8;
+    position: relative; 
+}
+
+.who-we-are{
+    color: #000;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+}
+
+.about-who{
+    font-family: "Rajdhani", "roboto";
+    position: absolute;
+    color: #000;
+    text-align: center;
+}
+
+.step-img{
+    width: 25em;
+    height: 18em;
+}
+
+
+
+
+/*---------- Home Banner ----------*/
+.banner{
+    width: 100%;
+    height: 5em;
+    background-color: #f8f8f8;
+}
+
+/*--- Month Free ---*/
+.promo{
+    padding: 0;
+    margin-top: 45px;
+    height: 200px;
+}
+
+.promo-logo{
+    height: 150px;
+    margin-left: 100px;
+}
+
+.join-button{
+    display: table;
+    margin-left: 160px;
+    margin-top: 0;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #00b050;
+    color: #fff;
+}
+
+/*--- Slogan ---*/
+.slogan{
+    font-family: "Rajdhani", "roboto";
+    letter-spacing: 5px;
+    color: #4c4c4c;
+}
+
+.fit{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.fit span{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.strong{
+    font-size: 45px;
+    margin-left: 80px;
+}
+
+.strong span{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.gym-it{
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-left: 240px;
+}
+
+
+/*--- 24/7 ---*/
+
+.open-logo{
+    margin-left: 80px;
+    margin-top: 45px;
+    padding: o;
+}
+
+/*------- Banner Pic 1 -------*/
+.banner-pic1{
+    width: 545px;
+    height: 330px;
+    margin-left: 180px;
+    margin-bottom: 45px;
+}
+
+/*------- Banner Pic 2 -------*/
+.banner-pic2{
+    width: 545px;
+    height: 330px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+/*------- Info Section -------*/
+
+.herosection{
+    background: #f8f8f8 url('../images/studio-cycle.jpg');
+    background-size: 1200px 660px;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 660px;
+    width: 1200px;
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.image-overlay{
+     height: 660px;
+    width: 1200px;
+    background: #eae9fb;
+    opacity: .5;
+    position: absolute;
+    margin-left: -15px;
+}
+
+h1{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 70px;
+    position: absolute;
+    margin-top: 1em;
+    left: 30px;
+}
+
+h2{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px; 
+    position: absolute;
+    margin-top: 7em;
+    line-height: 50px;
+    left: 30px;
+}
+
+.training-section{
+    height: 200px;
+    width: 25em;
+    background: #eb008a;
+    opacity: 0.7;
+    position: absolute;
+    margin-left: -0.9em;
+    margin-top: 460px;
+}
+
+.tuition-section{
+    height: 200px;
+    width: 25em;
+    background: #00b050;
+    opacity: 0.7;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 24.1em;
+}
+
+.advice-section{
+    height: 200px;
+    width: 25em;
+    background: #0077ff;
+    opacity: 0.7;
+    position: absolute;
+    margin-left: 49.1em;
+    margin-top: 460px;
+}
+
+.training-image{
+    position: absolute;
+    width: 7em;
+    height: 6em;
+    margin-top: 31.7em;
+}
+
+.tuition-image{
+    position: absolute;
+    width: 7.5em;
+    height: 5.5em;
+    margin-top: 31.7em;
+    margin-left: 24.5em;
+}
+
+.advice-image{
+    position: absolute;
+   width: 7em;
+    height: 6em;
+    margin-top: 31.7em;
+    margin-left: 49.8em;
+}
+
+.t-title{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px; 
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+
+.t-p1{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    left: 140px;
+    top: 45px;
+}
+
+.t-p2{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.tu-p1{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    left: 140px;
+    top: 40px;
+}
+
+.tu-p2{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    top: 130px;
+    left: 140px;
+}
+
+.a-p1{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    left: 140px;
+    top: 40px;
+}
+
+.a-p2{
+    font-family: "Rajdhani", "roboto";
+    font-size: 15px; 
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
 /*------------------------- Footer -------------------------*/
 
 .container-fluid{
@@ -175,6 +458,7 @@ padding-top: 35px;
     color: #fff;
     background: #4c4c4c;
 }
+
 
 /*---------- Copyright ----------*/
 
