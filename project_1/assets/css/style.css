@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani|Roboto&display=swap:100,200,300,400,500,600,700');
 
+ /*---------------------------------------------------------*/
+/*------------------------- COLOURS -------------------------*/
+ /*---------------------------------------------------------*/
 
-/*------------------------- Colours -------------------------*/
-
-/*---------- Header & Footer ----------*/
 .bgnavcolor{
     background-color: #eae9fb;
-    width: auto;
 }
 
 .bg-banner{
     background-color: #f8f8f8;
-    width: auto;
 }
 
 .bg-main-content{
     background-color: #ffffff;
-    width: auto;
 }
 
+#bg-gallery{
+    background-color: #f8f8f8;
+}
 
-/*------------------------- Header -------------------------*/
+/*---------------------------------------------------------*/
+/*------------------------- HEADER -------------------------*/
+/*---------------------------------------------------------*/
 
 /*---------- Logo Image ----------*/
 
 #gym-image{
-    width: 120px;
-    height: 120px;
-    margin-left: 30px;
-    margin-top: -25px;
+    width: 7.5rem;
+    height: 7.5rem;
+    
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -45,17 +46,16 @@
 
 /*---------- Company Title ----------*/
 
-.navbar-brand div{
+.main-title-text{
     font-family: "Rajdhani", "roboto";
     font-weight: 300;
-    font-size: 280%;
+    font-size: 3rem;
     color:#4c4c4c;
     text-transform: uppercase;
-    line-height: 1.2;
     letter-spacing: 5px;
-    margin-left: 50px;
-    margin-top: 35px;
     display: inline-block;
+    margin-left: 2.813rem;
+    margin-bottom: 0;
 }
 
 /*---------- Navigation Menu ----------*/
@@ -66,19 +66,19 @@
     font-weight: 300;
     letter-spacing: 2px;
     color: #4c4c4c;
-    height: 32px;
-    padding: 12px;
-    font-size: 16px;
+    height: 2rem;
+    padding: 0.75rem;
+    font-size: 1rem;
     line-height: 7px;
     border-right: 1px solid #4c4c4c;
 }
 
 .menuitem a i{
     color: #4c4c4c;
-    font-size: 16px;
+    font-size: 1rem;
     border-left: 1px solid #4c4c4c;
-    padding: 12px;
-    height: 32px;
+    padding: 0.75rem;
+    height: 2rem;
     line-height: 7px;
 }
 
@@ -96,61 +96,34 @@
     background-color: #4c4c4c;
 }
 
+  /*---------------------------------------------------------*/
+/*------------------------- MAIN BODY -------------------------*/
+  /*---------------------------------------------------------*/
 
-/*------------------------- Main Body -------------------------*/
-
-.monkey{
-    width: 100%;
-    height: 25em;
-    background-color: #f8f8f8;
-    position: relative; 
-}
-
-.who-we-are{
-    color: #000;
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    position: absolute;
-}
-
-.about-who{
-    font-family: "Rajdhani", "roboto";
-    position: absolute;
-    color: #000;
-    text-align: center;
-}
-
-.step-img{
-    width: 25em;
-    height: 18em;
-}
-
-
-
+/*--------------------- Home Page ---------------------*/
 
 /*---------- Home Banner ----------*/
 .banner{
     width: 100%;
-    height: 5em;
+    height: 5rem;
     background-color: #f8f8f8;
 }
 
-/*--- Month Free ---*/
+/*--- Month Free Image ---*/
 .promo{
     padding: 0;
-    margin-top: 45px;
-    height: 200px;
+    margin-top: 2.813rem;
+    height: 12.5rem;
 }
 
 .promo-logo{
-    height: 150px;
-    margin-left: 100px;
+    height: 9.375rem;
+    margin-left: 6.25rem;
 }
 
 .join-button{
     display: table;
-    margin-left: 160px;
+    margin-left: 10rem;
     margin-top: 0;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
@@ -159,7 +132,7 @@
     color: #fff;
 }
 
-/*--- Slogan ---*/
+/*--- Slogan Text ---*/
 .slogan{
     font-family: "Rajdhani", "roboto";
     letter-spacing: 5px;
@@ -167,106 +140,105 @@
 }
 
 .fit{
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
 }
 
 .fit span{
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 2.188rem;
 }
 
 .strong{
-    font-size: 45px;
-    margin-left: 80px;
+    font-size: 2.813rem;
+    margin-left: 5rem;
 }
 
 .strong span{
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .gym-it{
-    font-size: 65px;
+    font-size: 4.063rem;
     text-transform: uppercase;
-    margin-left: 240px;
+    margin-left: 15rem;
 }
 
 
-/*--- 24/7 ---*/
+/*--- 24/7 Image ---*/
 
 .open-logo{
-    margin-left: 80px;
-    margin-top: 45px;
-    padding: o;
+    margin-left: 5rem;
+    margin-top: 2.813rem;
+    padding: 0;
 }
 
 /*------- Banner Pic 1 -------*/
 .banner-pic1{
-    width: 545px;
-    height: 330px;
-    margin-left: 180px;
-    margin-bottom: 45px;
+    width: 34.063rem;
+    height: 20.625rem;
+    margin-left: 11.25rem;
+    margin-bottom: 2.813rem;
 }
 
 /*------- Banner Pic 2 -------*/
 .banner-pic2{
-    width: 545px;
-    height: 330px;
-    margin-left: 25px;
+    width: 34.063rem;
+    height: 20.625rem;
+    margin-left: 1.563rem;
     margin-top: 0;
-    margin-bottom: 45px;
+    margin-bottom: 2.813rem;
 }
 
 /*------- Info Section -------*/
 
 .herosection{
-    background: #f8f8f8 url('../images/studio-cycle.jpg');
-    background-size: 1200px 660px;
-    max-width: 1200px;
-    background-repeat: no-repeat;
+    background: #f8f8f8 url('../images/studio-cycle.jpg') no-repeat center;
+    background-size: 75rem 41.25rem;
+    max-width: 75rem;
     color: #fff;
-    height: 660px;
-    width: 1200px;
+    height: 41.25rem;
+    width: 75rem;
     display: flex;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 2.813rem;
+    margin-bottom: 2.813rem;
     position: relative;
 }
 
 .image-overlay{
-     height: 660px;
-    width: 1200px;
+     height: 41.25rem;
+    width: 75rem;
     background: #eae9fb;
     opacity: .5;
     position: absolute;
-    margin-left: -15px;
+    margin-left: -0.938rem;
 }
 
-h1{
+.offer1{
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 70px;
+    font-size: 4.375rem;
     position: absolute;
-    margin-top: 1em;
-    left: 30px;
+    margin-top: 1rem;
+    left: 1.875rem;
 }
 
-h2{
+.offer2{
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 30px; 
+    font-size: 1.875rem; 
     position: absolute;
-    margin-top: 7em;
-    line-height: 50px;
-    left: 30px;
+    margin-top: 7rem;
+    line-height: 3.125rem;
+    left: 1.875rem;
 }
 
 .training-section{
-    height: 200px;
-    width: 25em;
+    height: 12.5rem;
+    width: 25rem;
     background: #eb008a;
     opacity: 0.7;
     position: absolute;
@@ -275,114 +247,321 @@ h2{
 }
 
 .tuition-section{
-    height: 200px;
-    width: 25em;
+    height: 12.5rem;
+    width: 25rem;
     background: #00b050;
     opacity: 0.7;
     position: absolute;
-    margin-top: 460px;
-    margin-left: 24.1em;
+    margin-top: 28.75rem;
+    margin-left: 24.1rem;
 }
 
 .advice-section{
-    height: 200px;
-    width: 25em;
+    height: 12.5rem;
+    width: 25rem;
     background: #0077ff;
     opacity: 0.7;
     position: absolute;
-    margin-left: 49.1em;
-    margin-top: 460px;
+    margin-left: 49.1rem;
+    margin-top: 28.75rem;
 }
 
 .training-image{
     position: absolute;
-    width: 7em;
-    height: 6em;
-    margin-top: 31.7em;
+    width: 7rem;
+    height: 6rem;
+    margin-top: 31.7rem;
 }
 
 .tuition-image{
     position: absolute;
-    width: 7.5em;
-    height: 5.5em;
-    margin-top: 31.7em;
-    margin-left: 24.5em;
+    width: 7.5rem;
+    height: 5.5rem;
+    margin-top: 31.7rem;
+    margin-left: 24.5rem;
 }
 
 .advice-image{
     position: absolute;
-   width: 7em;
-    height: 6em;
-    margin-top: 31.7em;
-    margin-left: 49.8em;
+   width: 7rem;
+    height: 6rem;
+    margin-top: 31.7rem;
+    margin-left: 49.8rem;
 }
 
 .t-title{
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px; 
+    font-size: 1.25rem; 
     position: absolute;
-    top: 10px;
-    left: 140px;
+    top: 0.625rem;
+    left: 8.75rem;
 }
 
 .t-p1{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    left: 140px;
-    top: 45px;
+    left: 8.75rem;
+    top: 2.813rem;
 }
 
 .t-p2{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    top: 120px;
-    left: 140px;
+    top: 7.5rem;
+    left: 8.75rem;
 }
 
 .tu-p1{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    left: 140px;
-    top: 40px;
+    left: 8.75rem;
+    top: 2.5rem;
 }
 
 .tu-p2{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    top: 130px;
-    left: 140px;
+    top: 8.125rem;
+    left: 8.75rem;
 }
 
 .a-p1{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    left: 140px;
-    top: 40px;
+    left: 8.75rem;
+    top: 2.5rem;
 }
 
 .a-p2{
     font-family: "Rajdhani", "roboto";
-    font-size: 15px; 
+    font-size: 0.938rem; 
     position: absolute;
-    top: 140px;
-    left: 140px;
+    top: 8.75rem;
+    left: 8.75rem;
 }
-/*------------------------- Footer -------------------------*/
 
-.container-fluid{
-    margin: 0;
-    padding: 0;
+/*--------------------- About Page ---------------------*/
+
+/*---------- Who We Are ----------*/
+
+.who-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
 }
+
+.about-who-text{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 5rem;
+}
+
+.who-we-are{
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.about-who{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.step-img{
+     width: 36.313rem;
+    height: 22.125rem;
+}
+
+
+
+/*---------- What We Do ----------*/
+
+.what-banner{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.about-what-text{
+    width: 100%;
+    height: 5rem;
+}
+
+.what-we-do{
+    color: #4c4c4c;
+    background-color: #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.about-what{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.about-headings{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-guide{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.about-teach{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.about-connect{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.about-health{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.hang-img{
+    width: 36.313rem;
+    height: 22.125rem;
+}
+
+.class1-img{
+    width: 36.313rem;
+    height: 22.125rem;
+}
+
+.connect-img{
+    width: 36.313rem;
+    height: 22.125rem;
+}
+
+.healthy-img{
+    width: 80rem;
+    height: 14.091rem;
+}
+
+/*--------------------- Gallery Page ---------------------*/
+
+/*---------- Images ----------*/
+.gal {
+	
+	
+	-webkit-column-count: 2; /*Chrome, Safari, Opera*/
+    -moz-column-count: 2; /*Firefox*/
+    column-count: 2;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+
+/* Code source here */
+/* https://bootsnipp.com/snippets/p1qAD */
+
+/*---------- Gallery Heading ----------*/
+
+.gallery-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-heading{
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+/*--------------------- Classes Page ---------------------*/
+
+/*---------- Classes Heading & Banner ----------*/
+
+.classes-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.classes-heading{
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.fists-img{
+    width: 35rem;
+    height: 25rem;
+}
+
+.yoga-img{
+    width: 40rem;
+    height: 20rem;
+}
+
+.classes-slogan{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+/*----------------------- Contact Page -----------------------*/
+
+/*---------- Contact Heading & Banner ----------*/
+
+.contact-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.contact-heading{
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+/*---------------------------------------------------------*/
+/*------------------------- Footer -------------------------*/
+/*---------------------------------------------------------*/
 
 #footer-details{
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #eae9fb;
     color: #4c4c4c;
     font-family: "Rajdhani", "roboto";
@@ -393,24 +572,24 @@ h2{
 
 .mini-menu{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.875rem;
     letter-spacing: 2px;
     list-style-type: none;
 
 }
 
 .mini-menu li span:hover{
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .mini-menu-item a i{
     color: #4c4c4c;
-    font-size: 14px;
-    padding-right: 7px;
+    font-size: 0.875rem;
+    padding-right: 0.438rem;
 }
 
 .mini-menu-item span{
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 5px;
     color: #4c4c4c;
     padding: 0;
@@ -419,15 +598,15 @@ h2{
 /*---------- Classes Download ----------*/
 
 .classes-text{
-    font-size: 14px;
-    margin-top: 35px;
+    font-size: 0.875rem;
+    margin-top: 2.188rem;
 }
 
 .classes-pdf i{
-    height: 32px;
-    padding: 12px;
+    height: 2rem;
+    padding: 0.75rem;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 7px;
     color: #4c4c4c;
     background: #fff;
@@ -441,14 +620,14 @@ h2{
 /*---------- Social ----------*/
 
 .social-links{
-padding-top: 35px;
+padding-top: 2.188rem;
 }
 
 .social-links li a i{
-    height: 32px;
-    padding: 12px;
+    height: 2rem;
+    padding: 0.75rem;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 7px;
     color: #4c4c4c;
     background: #fff;
@@ -463,8 +642,8 @@ padding-top: 35px;
 /*---------- Copyright ----------*/
 
 .copyright{
-    font-size: 12px;
-    margin-top: 35px;
+    font-size: 0.75rem;
+    margin-top: 2.188rem;
 }
 
 .copyright span{
@@ -475,221 +654,18 @@ padding-top: 35px;
     text-shadow:0 0 1px #4c4c4c;
 }
 
+     /*---------------------------------------------------------*/
+/*------------------------- Media Query 500px -------------------------*/
+     /*---------------------------------------------------------*/
 
-/*------------------------- Media Query -------------------------*/
+/*---------- Gallery ----------*/
 
-/*---------- Larger ----------*/
-@media screen and (max-width:1475px){
-
-    .menuitem span{
-        border-right: 0;
-    }
-
-    .menuitem a i{
-        border-left: 0;
-    }
-
-#gym-image{
-    width: 20%;
-    height: 20%;
-    margin-left: 2px;
-}
-
-.navbar-brand div{
-    margin-left: 2px;
-}
-
-}
-
-/*---------- Large ----------*/
-@media screen and (max-width:985px){
-    
-#gym-image{
-    width: 20%;
-    height: 20%;
-    margin-left: 2px;
-}
-
-    .navbar-nav{
-    align-items: flex-end;
-}
-
-.navbar-brand div{
-    margin-left: 5px;
-}
-
-#active{
-    border: none;
-}
-}
-
-/*---------- Medium ----------*/
-
-@media screen and (max-width:770px){
-    
-#gym-image{
-    width: 20%;
-    height: 20%;
-    margin-left: 2px;
-}
-
-    .navbar-nav{
-    align-items: flex-end;
-}
-
-.navbar-brand div{
-    margin-left: 5px;
-}
-
-#active{
-    border: none;
-}
-
-.mini-menu-item span{
-    font-size: 8px;
-}
-
-.social-links{
-    padding: 0;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 10px;
-}
-
-.classes-text{
-    margin: 10px;
-    font-size: 10px;
-}
-
-.copyright{
-    margin: 10px;
-    font-size: 10px;
-}
-
-}
-
-/*---------- Small ----------*/
-@media screen and (max-width:520px){
-
-
-#gym-image{
-    width: 20%;
-    height: 20%;
-    margin-left: 2px;
-}
-
-#footer-details{
-    position: fixed;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#footer-details span{
-    font-size: 10px;
-}
-
-.navbar-brand div{
-    margin-left: 0;
-}
-
-.navbar-nav{
-    align-items: flex-end;
-}
-
-#active{
-    border: none;
-}
-
-.nav-link{
-    display: block;
-    padding: 0;
-}
-
-ul{
-    padding-left: 10px;
-    margin: 0;
-}
-
-.classes-text{
-    margin: 10px;
-    font-weight: bold;
-}
-
-.social-links{
-    padding: 0;
-    margin-left: 10px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.copyright{
-    margin: 10px;
-    font-size: 8px;
-}
-
-}
-
-/*---------- Smaller ----------*/
-@media screen and (max-width:320px){
-    
-    .navbar-brand div{
-        font-size: 240%;
-    }
-
-    #gym-image{
-    width: 20%;
-    height: 20%;
-    margin-left: 2px;
-}
-
-#footer-details{
-    position: fixed;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#footer-details span{
-    font-size: 10px;
-}
-
-.navbar-brand div{
-    margin-left: 0;
-}
-
-.navbar-nav{
-    align-items: flex-end;
-}
-
-#active{
-    border: none;
-}
-
-.nav-link{
-    display: block;
-    padding: 0;
-}
-
-ul{
-    padding-left: 10px;
-    margin: 0;
-}
-
-.classes-text{
-    margin: 10px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.social-links{
-    padding: 0;
-    margin-left: 10px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.copyright{
-    margin: 10px;
-    font-size: 8px;
-}
-
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	-webkit-column-count: 1; /*Chrome, Safari, Opera*/
+    -moz-column-count: 1; /*Firefox*/
+    column-count: 1;
+        }
 }
