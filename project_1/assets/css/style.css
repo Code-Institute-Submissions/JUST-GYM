@@ -20,6 +20,10 @@
     background-color: #f8f8f8;
 }
 
+.bg-contact{
+    background-color: #ffffff;
+}
+
 /*---------------------------------------------------------*/
 /*------------------------- HEADER -------------------------*/
 /*---------------------------------------------------------*/
@@ -29,7 +33,6 @@
 #gym-image{
     width: 7.5rem;
     height: 7.5rem;
-    
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -194,7 +197,7 @@
 /*------- Info Section -------*/
 
 .herosection{
-    background: #f8f8f8 url('../images/studio-cycle.jpg') no-repeat center;
+    background: #f8f8f8 url('../images/index/studio-cycle.jpg') no-repeat center;
     background-size: 75rem 41.25rem;
     max-width: 75rem;
     color: #fff;
@@ -382,6 +385,7 @@
 .step-img{
      width: 36.313rem;
     height: 22.125rem;
+    border-radius: 5%;
 }
 
 
@@ -449,21 +453,25 @@
 .hang-img{
     width: 36.313rem;
     height: 22.125rem;
+    border-radius: 5%;
 }
 
 .class1-img{
     width: 36.313rem;
     height: 22.125rem;
+    border-radius: 5%;
 }
 
 .connect-img{
     width: 36.313rem;
     height: 22.125rem;
+    border-radius: 5%;
 }
 
 .healthy-img{
     width: 80rem;
     height: 14.091rem;
+    border-radius: 5%;
 }
 
 /*--------------------- Gallery Page ---------------------*/
@@ -471,17 +479,24 @@
 /*---------- Images ----------*/
 .gal {
 	
-	
 	-webkit-column-count: 2; /*Chrome, Safari, Opera*/
     -moz-column-count: 2; /*Firefox*/
     column-count: 2;
-	  
-	
 	}	
-	.gal img{ width: 100%; padding: 7px 0;}
+    
+	.gal img{ 
+        width: 100%; 
+        padding: 7px;
+        border-radius: 5%;
+    }
+
+.gal img:hover{
+    box-shadow: 0 0 2px 1px rgba(76, 76, 76, 0.5);
+}
 
 /* Code source here */
 /* https://bootsnipp.com/snippets/p1qAD */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_thumbnail_image */
 
 /*---------- Gallery Heading ----------*/
 
@@ -521,21 +536,106 @@
     text-align: center;
 }
 
+/*---------- Classes Top Section ----------*/
+
 .fists-img{
-    width: 35rem;
-    height: 25rem;
+    width: 37.771rem;
+    height: 20rem;
+    border-radius: 5%;
 }
 
 .yoga-img{
-    width: 40rem;
+    width: 37.771rem;
     height: 20rem;
+    border-radius: 5%;
 }
 
-.classes-slogan{
+.classes-slogan-1{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
+    margin-left: 2rem;
 }
+
+.classes-slogan-2{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-left: 22rem;
+}
+
+.classes-slogan-3{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-left: 28rem;
+}
+
+.classes-para{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;  
+}
+
+.classes-para span{
+    color: #4c4c4c;
+}
+
+.classes-para span:hover{
+    text-shadow:0 0 1px #4c4c4c;
+}
+
+/*---------- Classes List ----------*/
+
+.classes-list-image{
+background: #f8f8f8 url('../images/classes/studio-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    max-width: 100%;
+    height: 25rem;
+    width: 85rem;
+}
+
+.spin-col{
+background-color: blue;
+height: 17rem;
+width: 17rem;
+position: absolute;
+}
+
+.hiit-col{
+  background-color: green;
+height: 17rem;
+width: 17rem;
+position: absolute;
+}
+
+.yoga-col{
+    background-color: yellow;
+height: 17rem;
+width: 17rem;
+position: absolute;
+}
+
+.lbt-col{
+    background-color: pink;
+height: 17rem;
+width: 17rem;
+position: absolute;
+}
+
+.pump-col{
+   background-color: red;
+height: 17rem;
+width: 17rem;
+position: absolute; 
+}
+
+.classes-list-text{
+    
+}
+
 /*----------------------- Contact Page -----------------------*/
 
 /*---------- Contact Heading & Banner ----------*/
@@ -555,6 +655,116 @@
     margin-top: 0.5em;
     text-align: center;
 }
+
+.contact-para{
+font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.contact-us-img{
+    height: 9.375rem;
+}
+
+/*---------- Contact Image & Form ----------*/
+
+.contact-woman{
+    width: 36.313rem;
+    height: 22.125rem;
+    border-radius: 5%;
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+.form-text{
+    color: #4c4c4c;
+     font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.form-button{
+    color: #ffffff;
+    background-color: #00b050;
+     font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color:#00b050;
+}
+
+/*The above code was used from the below site to help with changing the color of my checkbox*/
+/*Credit: https://stackoverflow.com/questions/48373119/change-bootstrap-4-checkbox-background-color */
+
+/*---------- Contact Social Media Links ----------*/
+
+.contact-social a i{
+    color: #4c4c4c;
+}
+
+.contact-social a i:hover{
+    color: #00b050;
+    text-shadow:0 0 1px #00b050;
+}
+
+
+/*---------- Contact Where We Are ----------*/
+
+.where-we-are{
+   color: #4c4c4c;
+    background-color: #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5rem;
+    text-align: center; 
+}
+
+.where-we-are-2{
+   color: #4c4c4c;
+    background-color: #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    text-align: center; 
+    font-size: 1rem;
+}
+
+.phone-icon h3 i{
+    color: #00b050;
+    font-size: 1rem;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 20%;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 75rem !important;
+        height: 21.875rem !important;
+    }
+
+    @media (max-width: 720px) {
+      .google-maps {
+        position: relative;
+        padding-bottom:50%;
+        height: 0;
+        overflow: hidden;
+    }
+    }
+    /*The above code was used from the below site to help with embedding google maps*/
+/*Credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 
 /*---------------------------------------------------------*/
 /*------------------------- Footer -------------------------*/

@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,13 +11,18 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+
 	<title>JUST GYM</title>
+
 </head>
 
 <body>
+
+	<!------------------------- Header ------------------------->
 	<header>
 		<nav class="navbar navbar-dark bgnavcolor navbar-expand-lg">
-			<a class="navbar-brand" href="index.html"><img id="gym-image" src="../project_1/assets/images/gym-logo-1.png" alt="logo"><h1 class="main-title-text">just gym</h1>
+			<a class="navbar-brand" href="index.html"><img id="gym-image" src="../project_1/assets/images/header/gym-logo-1.png" alt="logo">
+				<h1 class="main-title-text">just gym</h1>
 			</a>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,8 +57,12 @@
 			</div>
 		</nav>
 	</header>
+
+	<!------------------------- Main Content ------------------------->
 	<section>
-<div class="container-fluid contact-banner">
+
+		<!-------Upper-Banner------->
+		<div class="container-fluid contact-banner">
 
 			<div class="row justify-content-center">
 				<div class="col">
@@ -60,6 +70,134 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container-fluid contact-banner">
+			<div class="row justify-content-around">
+				<div class="col-lg-5 col-sm-12 col-md-5">
+					<img class="contact-us-img img-fluid" src="../project_1/assets/images/contact/contact-us-img.png" alt="contactUs">
+</div>
+					<div class="col-lg-5 col-sm-12 col-md-5">
+
+						<p class="contact-para">We guide individuals into a new and exciting life.
+							We show people how to live life to the max.
+							Whether someone is brand new to the gym scene
+							or whether they're regular gym-goers, there is always
+							something new to learn. There's always something different
+							to try! Our experienced team of Personal Trainers are here to
+							guide and nurture you through the exciting steps of your
+							journey. This can be done by tailored personal sessions or
+							bespoke exercise programmes. There is always someone on
+							site to guide you, no matter the time or day!
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+			<!-------Contact Image------->
+			<div class="container-fluid bg-contact">
+				<div class="row justify-content-around">
+					<div class="col-lg-5 col-sm-12 col-md-5">
+						<img class="contact-woman img-fluid" src="../project_1/assets/images/contact/contact-woman.jpg" alt="contactWoman">
+                            </div>
+						<div class="col-lg-5 col-sm-12 col-md-5">
+
+							<!-------Contact Form------->
+							<form class="text-center p-5" action="#!">
+
+								<p class="h4 mb-4 form-text"><strong>pop us a message</strong></p>
+
+								<!-- Name -->
+								<input type="text" id="name" class="form-control mb-4 form-text" placeholder="Name">
+
+								<!-- Email -->
+								<input type="email" id="email" class="form-control mb-4 form-text" placeholder="E-mail">
+
+								<!-- Phone -->
+								<input type="tel" id="phone" class="form-control mb-4 form-text" placeholder="Phone">
+
+								<!-- Subject -->
+								<label class="form-text"><strong>subject</strong></label>
+								<select class="browser-default custom-select mb-4 form-text">
+                                    <option value="" disabled selected>choose option</option>
+                                    <option value="1">feedback</option>
+                                    <option value="2">classes</option>
+                                    <option value="3">personal training</option>
+                                    <option value="4">opening times</option>
+                                </select>
+
+								<!-- Message -->
+								<div class="form-group">
+									<textarea class="form-control rounded-0 form-text" id="message" rows="3" placeholder="Message"></textarea>
+								</div>
+
+								<!-- Copy -->
+								<div class="custom-control custom-checkbox mb-4">
+									<input type="checkbox" class="custom-control-input center" id="copy">
+									<label class="custom-control-label" for="copy"><span class="form-text">Send me a copy of this message</span></label>
+								</div>
+
+								<!-- Send button -->
+								<button class="btn btn-success btn-block form-button" type="submit">Send</button>
+
+								<!-- Social Links -->
+								<p class="form-text">or contact us here:</p>
+								<div class="contact-social">
+									<a href="https://en-gb.facebook.com" target="_blank" class="mx-2 hvr-pulse"
+										role="button"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://twitter.com/explore" target="_blank" class="mx-2 hvr-pulse"
+										role="button"><i class="fab fa-twitter"></i></a>
+									<a href="https://www.linkedin.com" target="_blank" class="mx-2 hvr-pulse"
+										role="button"><i class="fab fa-linkedin-in"></i></a>
+									<a href="https://www.instagram.com" target="_blank" class="mx-2 hvr-pulse"
+										role="button"><i class="fab fa-instagram"></i></a>
+								</div>
+								<!--The above code was used from the below site to add a contact form-->
+								<!--Credit: https://mdbootstrap.com/docs/jquery/forms/basic/-->
+
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+				<!-------Lower-Banner------->
+				<div class="container-fluid bg-contact">
+
+					<div class="row justify-content-center">
+						<div class="col">
+							<h1 class="where-we-are">where to find us</h1>
+						</div>
+					</div>
+				</div>
+
+				<!-------Google Map------->
+				<div class="container-fluid bg-contact">
+
+					<div class="row justify-content-center">
+						<div class="col-10 google-maps">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10107.696624522618!2d-3.533532303599573!3d50.70279197217437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da42706f28ca1%3A0xc543e11cad54c686!2sMarsh%20Barton%2C%20Exeter!5e0!3m2!1sen!2suk!4v1588603062519!5m2!1sen!2suk"
+								width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+								aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+
+				<!--The above code was created by using the help of the below video-->
+				<!--Credit: https://www.youtube.com/watch?v=LoOb3jSnEw0&feature=youtu.be"-->
+
+				<!-------Address------->
+				<div class="container-fluid bg-contact">
+
+					<div class="row justify-content-center">
+						<div class="col phone-icon">
+							<h3 class="where-we-are-2"><i class="fas fa-map-marker-alt"></i> Just Gym, Exeter Marsh Barton, EX1 XXX<br>
+                            <i class="fas fa-phone-alt"></i> 01211 111 222</h3>
+						</div>
+					</div>
+				</div>
+
 	</section>
 
 	<!------------------------- Footer ------------------------->
@@ -131,7 +269,9 @@
 				<!--Copyright-->
 				<div class="col-md-3 col-lg-3 col-xl-3">
 					<p class="copyright">
-						Copyright by <a href="https://www.linkedin.com/in/lewis-wheeler-aa91791a0/" style="text-decoration: none;" target="_blank"><span><strong>Lewis Wheeler</strong></span></a> 2020.<br>
+						Copyright by <a href="https://www.linkedin.com/in/lewis-wheeler-aa91791a0/"
+							style="text-decoration: none;"
+							target="_blank"><span><strong>Lewis Wheeler</strong></span></a> 2020.<br>
                     All rights reserved.
 				</p>
 				</div>
@@ -152,7 +292,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-    
+
 </body>
 
 </html>
