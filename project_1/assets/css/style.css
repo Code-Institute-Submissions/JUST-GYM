@@ -24,6 +24,10 @@
     background-color: #ffffff;
 }
 
+.bg-classes{
+    background-color: #ffffff;
+}
+
 /*---------------------------------------------------------*/
 /*------------------------- HEADER -------------------------*/
 /*---------------------------------------------------------*/
@@ -120,8 +124,8 @@
 }
 
 .promo-logo{
-    height: 9.375rem;
-    margin-left: 6.25rem;
+    height: 9.375vw;
+    margin-left: 4rem;
 }
 
 .join-button{
@@ -143,36 +147,37 @@
 }
 
 .fit{
-    font-size: 1.875rem;
+    font-size: 2.5vw;
     margin-top: 1.875rem;
+    margin-left: 1rem;
 }
 
 .fit span{
     text-transform: uppercase;
-    font-size: 2.188rem;
+    font-size: 3.5vw;
 }
 
 .strong{
-    font-size: 2.813rem;
-    margin-left: 5rem;
+    font-size: 2.7vw;
+    margin-left: 6rem;
 }
 
 .strong span{
     text-transform: uppercase;
-    font-size: 3.125rem;
+    font-size: 3.7vw;
 }
 
 .gym-it{
-    font-size: 4.063rem;
+    font-size: 4vw;
     text-transform: uppercase;
-    margin-left: 15rem;
+    margin-left: 16rem;
 }
 
 
 /*--- 24/7 Image ---*/
 
 .open-logo{
-    margin-left: 5rem;
+    margin-left: -1.45rem;
     margin-top: 2.813rem;
     padding: 0;
 }
@@ -558,12 +563,14 @@
     width: 37.771rem;
     height: 20rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 .yoga-img{
     width: 37.771rem;
     height: 20rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 .classes-slogan-1{
@@ -604,50 +611,101 @@
 /*---------- Classes List ----------*/
 
 .classes-list-image{
-background: #f8f8f8 url('../images/classes/studio-img.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
-    max-width: 100%;
-    height: 25rem;
-    width: 85rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 
-.spin-col{
-background-color: blue;
-height: 17rem;
-width: 17rem;
-position: absolute;
+/*---------- Classes Table ----------*/
+.day{
+    background-color: #eae9fb;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
 }
 
-.hiit-col{
-  background-color: green;
-height: 17rem;
-width: 17rem;
-position: absolute;
+.pink{
+    background-color: #f16b84;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.yoga-col{
-    background-color: yellow;
-height: 17rem;
-width: 17rem;
-position: absolute;
+.red{
+    background-color: #955029;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.lbt-col{
-    background-color: pink;
-height: 17rem;
-width: 17rem;
-position: absolute;
+.orange{
+    background-color: #f5841f;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.pump-col{
-   background-color: red;
-height: 17rem;
-width: 17rem;
-position: absolute; 
+.blue{
+    background-color: #005b9b;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
+.green{
+    background-color: #67aa1c;
+    height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.white{
+    background-color: #ffffff;
+   height: 5rem;
+    width: 10.3rem;
+    border: 3px solid #ffffff;
+}
+
+.day{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 0.625rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #4c4c4c;
+}
 
 /*----------------------- Contact Page -----------------------*/
 
