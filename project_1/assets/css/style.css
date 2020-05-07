@@ -372,7 +372,7 @@
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
     text-align: center;
 }
 
@@ -380,12 +380,14 @@
     font-family: "Rajdhani", "roboto";
     color: #4c4c4c;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .step-img{
      width: 36.313rem;
     height: 22.125rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 
@@ -424,6 +426,17 @@
     color: #4c4c4c;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-top: 4.5rem;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.about-headings-2{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 1rem;
+    border-bottom: 1px solid #4c4c4c;
 }
 
 .about-guide{
@@ -454,18 +467,21 @@
     width: 36.313rem;
     height: 22.125rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 .class1-img{
     width: 36.313rem;
     height: 22.125rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 .connect-img{
     width: 36.313rem;
     height: 22.125rem;
     border-radius: 5%;
+    margin-bottom: 2rem;
 }
 
 .healthy-img{
@@ -632,9 +648,6 @@ width: 17rem;
 position: absolute; 
 }
 
-.classes-list-text{
-    
-}
 
 /*----------------------- Contact Page -----------------------*/
 
@@ -766,6 +779,168 @@ font-family: "Rajdhani", "roboto";
     /*The above code was used from the below site to help with embedding google maps*/
 /*Credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 
+
+/*----------------------- Join Page -----------------------*/
+
+/*---------- Top Banner ----------*/
+
+.join-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.join-promo-logo{
+    height: 9.375rem;
+    margin-top: 0.8rem;
+}
+
+.join-slogan-1{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.join-slogan-2{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-left: 10rem;
+}
+
+.join-slogan-3{
+    font-family: "Rajdhani", "roboto";
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-left: 20rem;
+}
+
+/*---------- Mid Banner ----------*/
+
+.join-img{
+    width: 22.125rem;
+    height: 22.125rem;
+    border-radius: 30%;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.join-para-1{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.join-para-2{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.join-para-3{
+    font-family: "Rajdhani", "roboto";
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/*---------- Corona Banner ----------*/
+
+.corona-banner{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.corona-banner-text{
+    color: #ff0000;
+    background-color: #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.corona-para-text{
+    color: #4c4c4c;
+    background-color: #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.corona-para-text a span{
+    font-size: 1.112rem;
+    color: #4c4c4c;
+}
+
+.corona-para-text a span:hover{
+    text-shadow:0 0 1px #4c4c4c;
+}
+
+.nhs-link a i{
+    color: #4c4c4c;
+   font-size: 1.5rem;
+   margin-left: 1rem;
+}
+
+.nhs-link a i:hover{
+    color: #00b050;
+    text-shadow:0 0 1px #00b050;
+}
+
+.virus-img-2{
+    margin-top: 5rem;
+}
+
+
+
+
+/*----------------------- Back to top Banner -----------------------*/
+.btp-banner{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.btp-banner-gal{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.btp-banner-text a{
+    color: #4c4c4c;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.btp-banner-text a i{
+    color: #4c4c4c;
+   font-size: 1.5rem;
+   margin-left: 0.5rem;
+}
+
+.btp-banner-text a:hover{
+    text-decoration: none;
+}
+
+.btp-banner-text a i:hover{
+    text-decoration: none;
+}
+
+
 /*---------------------------------------------------------*/
 /*------------------------- Footer -------------------------*/
 /*---------------------------------------------------------*/
@@ -868,7 +1043,7 @@ padding-top: 2.188rem;
 /*------------------------- Media Query 500px -------------------------*/
      /*---------------------------------------------------------*/
 
-/*---------- Gallery ----------*/
+/*---------- Gallery Page ----------*/
 
 @media (max-width: 500px) {
 		
@@ -878,4 +1053,37 @@ padding-top: 2.188rem;
     -moz-column-count: 1; /*Firefox*/
     column-count: 1;
         }
+}
+
+/*---------- Contact Page ----------*/
+
+@media (max-width: 580px) {
+.contact-woman{
+margin: 0;
+}
+
+}
+
+
+/*---------- Join Page ----------*/
+
+@media (max-width: 580px) {
+
+.join-img{
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.join-slogan-1{
+    margin: 0;
+}
+
+.join-slogan-2{
+    margin: 0;
+}
+
+.join-slogan-3{
+    margin: 0;
+}
+
 }
