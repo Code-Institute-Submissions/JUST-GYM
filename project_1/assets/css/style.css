@@ -40,6 +40,7 @@
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    padding: 0.4rem;
 }
 
 @keyframes hero-zoom {
@@ -56,13 +57,13 @@
 .main-title-text{
     font-family: "Rajdhani", "roboto";
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color:#4c4c4c;
     text-transform: uppercase;
     letter-spacing: 5px;
-    display: inline-block;
-    margin-left: 2.813rem;
-    margin-bottom: 0;
+    display: inline;
+    margin-left: 1rem;
+    text-decoration: none;
 }
 
 /*---------- Navigation Menu ----------*/
@@ -184,175 +185,25 @@
 
 /*------- Banner Pic 1 -------*/
 .banner-pic1{
-    width: 34.063rem;
-    height: 20.625rem;
-    margin-left: 11.25rem;
+    width: 38.063rem;
+    height: 21.625rem;
     margin-bottom: 2.813rem;
+    border-radius: 5%;
 }
 
 /*------- Banner Pic 2 -------*/
 .banner-pic2{
-    width: 34.063rem;
-    height: 20.625rem;
-    margin-left: 1.563rem;
-    margin-top: 0;
+    width: 38.063rem;
+    height: 21.625rem;
     margin-bottom: 2.813rem;
+    border-radius: 5%;
 }
 
 /*------- Info Section -------*/
 
-.herosection{
-    background: #f8f8f8 url('../images/index/studio-cycle.jpg') no-repeat center;
-    background-size: 75rem 41.25rem;
-    max-width: 75rem;
-    color: #fff;
-    height: 41.25rem;
-    width: 75rem;
-    display: flex;
-    margin-top: 2.813rem;
-    margin-bottom: 2.813rem;
-    position: relative;
-}
-
-.image-overlay{
-     height: 41.25rem;
-    width: 75rem;
-    background: #eae9fb;
-    opacity: .5;
-    position: absolute;
-    margin-left: -0.938rem;
-}
-
-.offer1{
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 4.375rem;
-    position: absolute;
-    margin-top: 1rem;
-    left: 1.875rem;
-}
-
-.offer2{
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.875rem; 
-    position: absolute;
-    margin-top: 7rem;
-    line-height: 3.125rem;
-    left: 1.875rem;
-}
-
-.training-section{
-    height: 12.5rem;
-    width: 25rem;
-    background: #eb008a;
-    opacity: 0.7;
-    position: absolute;
-    margin-left: -0.9em;
-    margin-top: 460px;
-}
-
-.tuition-section{
-    height: 12.5rem;
-    width: 25rem;
-    background: #00b050;
-    opacity: 0.7;
-    position: absolute;
-    margin-top: 28.75rem;
-    margin-left: 24.1rem;
-}
-
-.advice-section{
-    height: 12.5rem;
-    width: 25rem;
-    background: #0077ff;
-    opacity: 0.7;
-    position: absolute;
-    margin-left: 49.1rem;
-    margin-top: 28.75rem;
-}
-
-.training-image{
-    position: absolute;
-    width: 7rem;
-    height: 6rem;
-    margin-top: 31.7rem;
-}
-
-.tuition-image{
-    position: absolute;
-    width: 7.5rem;
-    height: 5.5rem;
-    margin-top: 31.7rem;
-    margin-left: 24.5rem;
-}
-
-.advice-image{
-    position: absolute;
-   width: 7rem;
-    height: 6rem;
-    margin-top: 31.7rem;
-    margin-left: 49.8rem;
-}
-
-.t-title{
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.25rem; 
-    position: absolute;
-    top: 0.625rem;
-    left: 8.75rem;
-}
-
-.t-p1{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    left: 8.75rem;
-    top: 2.813rem;
-}
-
-.t-p2{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    top: 7.5rem;
-    left: 8.75rem;
-}
-
-.tu-p1{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    left: 8.75rem;
-    top: 2.5rem;
-}
-
-.tu-p2{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    top: 8.125rem;
-    left: 8.75rem;
-}
-
-.a-p1{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    left: 8.75rem;
-    top: 2.5rem;
-}
-
-.a-p2{
-    font-family: "Rajdhani", "roboto";
-    font-size: 0.938rem; 
-    position: absolute;
-    top: 8.75rem;
-    left: 8.75rem;
+.offer-image{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*--------------------- About Page ---------------------*/
@@ -1144,4 +995,56 @@ margin: 0;
     margin: 0;
 }
 
+}
+
+
+
+
+
+/*---------------------------------------------------------*/
+/*------------------------- Media Query 1330px -------------------------*/
+     /*---------------------------------------------------------*/
+
+@media (max-width: 1330px) {
+.menuitem span{
+    border-right: none;
+}
+
+.menuitem a i{
+    border-left: none;
+}
+
+}
+
+     /*---------------------------------------------------------*/
+/*------------------------- Media Query 960px -------------------------*/
+     /*---------------------------------------------------------*/
+
+@media (max-width: 1330px) {
+.main-title-text{
+    font-size: 3.2rem;
+}
+    
+}
+
+/*---------------------------------------------------------*/
+/*------------------------- Media Query 450px -------------------------*/
+     /*---------------------------------------------------------*/
+
+@media (max-width: 450px) {
+.main-title-text{
+    font-size: 2.2rem;
+}
+    
+}
+
+/*---------------------------------------------------------*/
+/*------------------------- Media Query 320px -------------------------*/
+     /*---------------------------------------------------------*/
+
+@media (max-width: 450px) {
+.main-title-text{
+    font-size: 1.5rem;
+}
+    
 }
