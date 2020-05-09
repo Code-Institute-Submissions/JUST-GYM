@@ -110,14 +110,7 @@
 
 /*--------------------- Home Page ---------------------*/
 
-/*---------- Home Banner ----------*/
-.banner{
-    width: 100%;
-    height: 5rem;
-    background-color: #f8f8f8;
-}
-
-/*--- Month Free Image ---*/
+/*--- Promotion Image & Button ---*/
 .promo{
     padding: 0;
     margin-top: 2.813rem;
@@ -125,7 +118,7 @@
 }
 
 .promo-logo{
-    height: 9.375vw;
+    height: 9.375rem;
     margin-left: 4rem;
 }
 
@@ -140,7 +133,7 @@
     color: #fff;
 }
 
-/*--- Slogan Text ---*/
+/*--- Punchy Slogan ---*/
 .slogan{
     font-family: "Rajdhani", "roboto";
     letter-spacing: 5px;
@@ -183,25 +176,31 @@
     padding: 0;
 }
 
-/*------- Banner Pic 1 -------*/
-.banner-pic1{
+/*------- Middle Banner Images -------*/
+
+.treadmill-img{
     width: 38.063rem;
     height: 21.625rem;
     margin-bottom: 2.813rem;
     border-radius: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/*------- Banner Pic 2 -------*/
-.banner-pic2{
+.hi-five-img{
     width: 38.063rem;
     height: 21.625rem;
     margin-bottom: 2.813rem;
     border-radius: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/*------- Info Section -------*/
+/*------- Lower Banner -------*/
 
-.offer-image{
+.offer-img{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -244,6 +243,9 @@
     height: 22.125rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -324,6 +326,9 @@
     height: 22.125rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .class1-img{
@@ -331,6 +336,9 @@
     height: 22.125rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .connect-img{
@@ -338,17 +346,41 @@
     height: 22.125rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .healthy-img{
     width: 80rem;
     height: 14.091rem;
     border-radius: 5%;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--------------------- Gallery Page ---------------------*/
 
-/*---------- Images ----------*/
+/*---------- Gallery Title ----------*/
+
+.gallery-banner{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-heading{
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+/*---------- Gallery Images ----------*/
 .gal {
 	
 	-webkit-column-count: 2; /*Chrome, Safari, Opera*/
@@ -370,27 +402,10 @@
 /* https://bootsnipp.com/snippets/p1qAD */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_thumbnail_image */
 
-/*---------- Gallery Heading ----------*/
-
-.gallery-banner{
-    background-color: #f8f8f8;
-    width: 100%;
-    height: auto;
-}
-
-.gallery-heading{
-    color: #4c4c4c;
-    background-color: #f8f8f8;
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-top: 0.5em;
-    text-align: center;
-}
 
 /*--------------------- Classes Page ---------------------*/
 
-/*---------- Classes Heading & Banner ----------*/
+/*---------- Classes Title & Banner ----------*/
 
 .classes-banner{
     background-color: #f8f8f8;
@@ -408,13 +423,16 @@
     text-align: center;
 }
 
-/*---------- Classes Top Section ----------*/
+/*---------- Classes Upper Banner ----------*/
 
 .fists-img{
     width: 37.771rem;
     height: 20rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .yoga-img{
@@ -422,27 +440,30 @@
     height: 20rem;
     border-radius: 5%;
     margin-bottom: 2rem;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .classes-slogan-1{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 2rem;
+    margin-left: 8rem;
 }
 
 .classes-slogan-2{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 22rem;
+    margin-left: 30rem;
 }
 
 .classes-slogan-3{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 28rem;
+    margin-left: 36rem;
 }
 
 .classes-para{
@@ -461,17 +482,30 @@
 
 /*---------- Classes List ----------*/
 
-.classes-list-image{
+.choose-class-image{
 margin-top: 2rem;
 margin-bottom: 2rem;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*---------- Classes Table ----------*/
+
 .day{
     background-color: #eae9fb;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 0.625rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #4c4c4c;
 }
 
 .pink{
@@ -560,7 +594,7 @@ margin-bottom: 2rem;
 
 /*----------------------- Contact Page -----------------------*/
 
-/*---------- Contact Heading & Banner ----------*/
+/*---------- Upper Banner ----------*/
 
 .contact-banner{
     background-color: #f8f8f8;
@@ -586,18 +620,25 @@ font-family: "Rajdhani", "roboto";
 
 .contact-us-img{
     height: 9.375rem;
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/*---------- Contact Image & Form ----------*/
+/*---------- Middle Banner ----------*/
 
+/*---Image---*/
 .contact-woman{
     width: 36.313rem;
     height: 22.125rem;
     border-radius: 5%;
     margin-top: 7rem;
-    margin-left: 2rem;
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/*--- Contact Form ---*/
 .form-text{
     color: #4c4c4c;
      font-family: "Rajdhani", "roboto";
@@ -622,7 +663,7 @@ font-family: "Rajdhani", "roboto";
 /*The above code was used from the below site to help with changing the color of my checkbox*/
 /*Credit: https://stackoverflow.com/questions/48373119/change-bootstrap-4-checkbox-background-color */
 
-/*---------- Contact Social Media Links ----------*/
+/*--- Social Media Links ---*/
 
 .contact-social a i{
     color: #4c4c4c;
@@ -634,9 +675,10 @@ font-family: "Rajdhani", "roboto";
 }
 
 
-/*---------- Contact Where We Are ----------*/
+/*---------- Lower Banner ----------*/
 
-.where-we-are{
+/*--- Title ---*/
+.contact-where-title{
    color: #4c4c4c;
     background-color: #ffffff;
     font-family: "Rajdhani", "roboto";
@@ -646,7 +688,8 @@ font-family: "Rajdhani", "roboto";
     text-align: center; 
 }
 
-.where-we-are-2{
+/*--- Address ---*/
+.address-phone{
    color: #4c4c4c;
     background-color: #ffffff;
     font-family: "Rajdhani", "roboto";
@@ -663,12 +706,14 @@ font-family: "Rajdhani", "roboto";
     font-size: 1rem;
 }
 
+/*--- Google Map ---*/
 .google-maps {
         position: relative;
         padding-bottom: 20%;
         overflow: hidden;
         margin-bottom: 2rem;
     }
+    
     .google-maps iframe {
         position: absolute;
         top: 0;
@@ -702,6 +747,7 @@ font-family: "Rajdhani", "roboto";
 .join-promo-logo{
     height: 9.375rem;
     margin-top: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 .join-slogan-1{
@@ -729,7 +775,7 @@ font-family: "Rajdhani", "roboto";
 
 .join-img{
     width: 22.125rem;
-    height: 22.125rem;
+    height: auto;
     border-radius: 30%;
     margin-left: 8rem;
     margin-bottom: 2rem;
@@ -810,22 +856,20 @@ font-family: "Rajdhani", "roboto";
 }
 
 
-
-
 /*----------------------- Back to top Banner -----------------------*/
-.btp-banner{
+.btt-banner{
     background-color: #ffffff;
     width: 100%;
     height: auto;
 }
 
-.btp-banner-gal{
+.btt-banner-gal{
     background-color: #f8f8f8;
     width: 100%;
     height: auto;
 }
 
-.btp-banner-text a{
+.btt-banner-text a{
     color: #4c4c4c;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
@@ -835,17 +879,17 @@ font-family: "Rajdhani", "roboto";
     margin-top: 1rem;
 }
 
-.btp-banner-text a i{
+.btt-banner-text a i{
     color: #4c4c4c;
    font-size: 1.5rem;
    margin-left: 0.5rem;
 }
 
-.btp-banner-text a:hover{
+.btt-banner-text a:hover{
     text-decoration: none;
 }
 
-.btp-banner-text a i:hover{
+.btt-banner-text a i:hover{
     text-decoration: none;
 }
 
@@ -932,7 +976,6 @@ padding-top: 2.188rem;
     background: #4c4c4c;
 }
 
-
 /*---------- Copyright ----------*/
 
 .copyright{
@@ -948,9 +991,238 @@ padding-top: 2.188rem;
     text-shadow:0 0 1px #4c4c4c;
 }
 
-     /*---------------------------------------------------------*/
-/*------------------------- Media Query 500px -------------------------*/
-     /*---------------------------------------------------------*/
+
+        /*---------------------------------------------------------*/
+/*------------------------- Media Query 1100px + -------------------------*/
+        /*---------------------------------------------------------*/
+
+/*---------- Header ----------*/
+
+@media (max-width: 1330px) {
+.menuitem span{
+    border-right: none;
+}
+
+.menuitem a i{
+    border-left: none;
+}
+
+/*---------- Join Page ----------*/
+
+.classes-slogan-1{
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+.classes-slogan-2{
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.classes-slogan-3{
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+}
+
+/*---------- Join Page ----------*/
+
+@media (max-width: 1150px) {
+
+.join-slogan-1{
+    margin-top: 2rem;
+margin-left: 0;
+}
+
+.join-slogan-2{
+margin-left: 0;
+margin-top: 1rem;
+}
+
+.join-slogan-3{
+margin-left: 0;
+margin-top: 1rem;
+}
+
+.join-para-1{
+    margin-top: 1rem;
+}
+
+.join-para-2{
+    margin-top: 0;
+}
+
+.join-para-3{
+    margin-top: 0;
+}
+
+.join-img{
+    margin-left: 0;
+}
+
+}
+
+
+        /*---------------------------------------------------------*/
+/*------------------------- Media Query 700px - 799px -------------------------*/
+        /*---------------------------------------------------------*/
+
+
+@media (min-width: 760px) and (max-width: 1050px) {
+
+/*---------- Home Page ----------*/
+.promo{
+    margin: 0;
+}
+
+.promo-logo{
+    height: 7rem;
+}
+
+.fit{
+    margin-top: 0;
+    margin-left: 4rem
+}
+
+.strong{
+    margin-left: 5rem;
+}
+
+.gym-it{
+    margin-left: 8rem;
+}
+
+.treadmill-img{
+    margin-top: 2rem;
+}
+
+.hi-five-img{
+    margin-top: 2rem;
+}
+}
+
+
+/*---------- Join Page ----------*/
+
+@media (max-width: 799px) {
+
+.join-img{
+    margin: 0;
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title-text{
+    font-size: 3.2rem;
+}
+    
+.virus-img-1{
+    width: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.virus-img-2{
+    width: 6rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.join-promo-logo{
+    margin-bottom: 1rem;
+}
+
+}
+
+/*---------- Back to Top Banner ----------*/
+.btt-banner-text{
+    text-align: end !important;
+}
+
+/*---------- Footer ----------*/
+
+@media (max-width: 775px) {
+
+.mini-menu{
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+}
+
+.classes-text{
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.social-links{
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.list-inline-item{
+    margin-top: 5px;
+}
+
+.fa-download{
+    margin-top: 5px;
+}
+
+}
+
+
+ /*---------------------------------------------------------*/
+/*------------------------- Media Query 600px - 999px -------------------------*/
+        /*---------------------------------------------------------*/
+
+@media (min-width: 620px) and (max-width: 950px) {
+
+/*---------- Classes Page ----------*/
+
+.pink{
+    font-size: 0.8rem;
+}
+
+.red{
+    font-size: 0.8rem;
+}
+
+.orange{
+    font-size: 0.8rem;
+}
+
+.blue{
+    font-size: 0.8rem;
+}
+
+.green{
+    font-size: 0.8rem;
+}
+
+}
+
+
+         /*---------------------------------------------------------*/
+/*------------------------- Media Query 500px - 599px -------------------------*/
+         /*---------------------------------------------------------*/
 
 /*---------- Gallery Page ----------*/
 
@@ -974,77 +1246,108 @@ margin: 0;
 }
 
 
-/*---------- Join Page ----------*/
+        /*---------------------------------------------------------*/
+/*------------------------- Media Query 400px - 499px -------------------------*/
+        /*---------------------------------------------------------*/
 
-@media (max-width: 580px) {
-
-.join-img{
-    margin: 0;
-    margin-top: 3rem;
-}
-
-.join-slogan-1{
-    margin: 0;
-}
-
-.join-slogan-2{
-    margin: 0;
-}
-
-.join-slogan-3{
-    margin: 0;
-}
-
-}
-
-
-
-
-
-/*---------------------------------------------------------*/
-/*------------------------- Media Query 1330px -------------------------*/
-     /*---------------------------------------------------------*/
-
-@media (max-width: 1330px) {
-.menuitem span{
-    border-right: none;
-}
-
-.menuitem a i{
-    border-left: none;
-}
-
-}
-
-     /*---------------------------------------------------------*/
-/*------------------------- Media Query 960px -------------------------*/
-     /*---------------------------------------------------------*/
-
-@media (max-width: 1330px) {
-.main-title-text{
-    font-size: 3.2rem;
-}
-    
-}
-
-/*---------------------------------------------------------*/
-/*------------------------- Media Query 450px -------------------------*/
-     /*---------------------------------------------------------*/
-
-@media (max-width: 450px) {
-.main-title-text{
-    font-size: 2.2rem;
-}
-    
-}
-
-/*---------------------------------------------------------*/
-/*------------------------- Media Query 320px -------------------------*/
-     /*---------------------------------------------------------*/
-
+/*---------- Header ----------*/
 @media (max-width: 450px) {
 .main-title-text{
     font-size: 1.5rem;
 }
     
+}
+
+
+/*---------------------------------------------------------*/
+/*------------------------- Media Query 300px + -------------------------*/
+        /*---------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 765px) {
+
+/*---------- Home Page ----------*/
+.promo{
+    margin: 0;
+}
+
+.promo-logo{
+    height: 7rem;
+}
+
+.fit{
+    margin-top: 0;
+}
+
+.strong{
+    margin-left: 5rem;
+}
+
+.gym-it{
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+}
+
+.open-logo{
+    display: none;
+}
+}
+
+@media (min-width: 300px) and (max-width: 620px) {
+
+/*---------- Classes Page ----------*/
+
+.day{
+    font-size: 1rem;
+    padding: 25px 0;
+}
+
+.pink{
+    font-size: 0.4rem;
+    padding: 20px 10px;
+    line-height: 10px;
+}
+
+.pink span{
+    display: none;
+}
+
+.red{
+    font-size: 0.4rem;
+    padding: 20px 10px;
+    line-height: 10px;
+}
+
+.red span{
+    display: none;
+}
+
+.orange{
+    font-size: 0.4rem;
+    padding: 20px 10px;
+    line-height: 10px;
+}
+
+.orange span{
+    display: none;
+}
+
+.blue{
+    font-size: 0.4rem;
+    padding: 20px 10px;
+    line-height: 10px;
+}
+
+.blue span{
+    display: none;
+}
+
+.green{
+    font-size: 0.4rem;
+    padding: 20px 6px;
+    line-height: 10px;
+}
+
+.green span{
+    display: none;
+}
 }
