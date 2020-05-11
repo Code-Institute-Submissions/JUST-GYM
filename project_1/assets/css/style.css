@@ -141,30 +141,30 @@
 }
 
 .fit{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     margin-top: 1.875rem;
     margin-left: 1rem;
 }
 
 .fit span{
     text-transform: uppercase;
-    font-size: 3.5vw;
+    font-size: 3.5rem;
 }
 
 .strong{
-    font-size: 2.7vw;
-    margin-left: 6rem;
+    font-size: 2.7rem;
+    margin-left: 7rem;
 }
 
 .strong span{
     text-transform: uppercase;
-    font-size: 3.7vw;
+    font-size: 3.7rem;
 }
 
 .gym-it{
-    font-size: 4vw;
+    font-size: 4rem;
     text-transform: uppercase;
-    margin-left: 16rem;
+    margin-left: 17rem;
 }
 
 
@@ -203,6 +203,9 @@
 .offer-img{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--------------------- About Page ---------------------*/
@@ -497,6 +500,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     font-size: 2rem;
@@ -513,6 +517,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     text-align: center;
@@ -526,6 +531,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     text-align: center;
@@ -539,6 +545,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     text-align: center;
@@ -552,6 +559,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     text-align: center;
@@ -565,6 +573,7 @@ display: block;
     height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     text-align: center;
@@ -578,19 +587,9 @@ display: block;
    height: 5rem;
     width: 10.3rem;
     border: 3px solid #ffffff;
+    background-clip: padding-box;
 }
 
-.day{
-    font-family: "Rajdhani", "roboto";
-    text-transform: uppercase;
-    font-size: 2rem;
-    padding-top: 0.625rem;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #4c4c4c;
-}
 
 /*----------------------- Contact Page -----------------------*/
 
@@ -996,9 +995,10 @@ padding-top: 2.188rem;
 /*------------------------- Media Query 1100px + -------------------------*/
         /*---------------------------------------------------------*/
 
+@media (max-width: 1330px) {
+
 /*---------- Header ----------*/
 
-@media (max-width: 1330px) {
 .menuitem span{
     border-right: none;
 }
@@ -1015,34 +1015,62 @@ padding-top: 2.188rem;
 }
 
 .classes-slogan-2{
-    margin-left: 0;
+    margin-left: 8rem;
     margin-top: 1rem;
 }
 
 .classes-slogan-3{
-    margin-left: 0;
+    margin-left: 12rem;
     margin-top: 1rem;
 }
 
+.classes-para{
+    margin-top: 2rem;
+}
+
+}
+
+/*------------------------*/
+
+@media (max-width: 1150px) {
+
+/*---------- Home Page ----------*/
+
+.fit{
+    font-size: 1.5rem;
+    margin-top: 2.875rem;
+    margin-left: 0;
+}
+
+.fit span{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.strong{
+    font-size: 1.7rem;
+    margin-left: 3rem;
+}
+
+.strong span{
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
+
+.gym-it{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-left: 10rem;
 }
 
 /*---------- Join Page ----------*/
 
-@media (max-width: 1150px) {
-
-.join-slogan-1{
-    margin-top: 2rem;
-margin-left: 0;
-}
-
 .join-slogan-2{
-margin-left: 0;
-margin-top: 1rem;
+margin-left: 4rem;
 }
 
 .join-slogan-3{
-margin-left: 0;
-margin-top: 1rem;
+margin-left: 7rem;
 }
 
 .join-para-1{
@@ -1050,28 +1078,45 @@ margin-top: 1rem;
 }
 
 .join-para-2{
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 .join-para-3{
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 .join-img{
-    margin-left: 0;
+    margin-left: 2rem;
 }
 
 }
 
+ /*---------------------------------------------------------*/
+/*------------------------- Media Query 800px + -------------------------*/
+        /*---------------------------------------------------------*/
+
+@media (max-width: 800px) {
+
+/*---------- About Page ----------*/
+
+.about-who{
+    margin-top: 2rem;
+}
+
+.about-headings{
+    margin-top: 1rem;
+}
+
+}
 
         /*---------------------------------------------------------*/
-/*------------------------- Media Query 700px - 799px -------------------------*/
+/*------------------------- Media Query 700px + -------------------------*/
         /*---------------------------------------------------------*/
 
-
-@media (min-width: 760px) and (max-width: 1050px) {
+@media (min-width: 775px) and (max-width: 1050px) {
 
 /*---------- Home Page ----------*/
+
 .promo{
     margin: 0;
 }
@@ -1081,16 +1126,16 @@ margin-top: 1rem;
 }
 
 .fit{
-    margin-top: 0;
-    margin-left: 4rem
+    margin-top: 1rem;
+    margin-left: 0;
 }
 
 .strong{
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .gym-it{
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
 
 .treadmill-img{
@@ -1100,12 +1145,14 @@ margin-top: 1rem;
 .hi-five-img{
     margin-top: 2rem;
 }
+
 }
 
+/*-----------------------*/
+@media (max-width: 799px) {
 
 /*---------- Join Page ----------*/
 
-@media (max-width: 799px) {
 
 .join-img{
     margin: 0;
@@ -1148,9 +1195,10 @@ margin-top: 1rem;
     text-align: end !important;
 }
 
-/*---------- Footer ----------*/
-
+/*-----------------------*/
 @media (max-width: 775px) {
+
+/*---------- Footer ----------*/
 
 .mini-menu{
     text-align: center;
@@ -1185,12 +1233,64 @@ margin-top: 1rem;
 .fa-download{
     margin-top: 5px;
 }
+}
+
+/*-----------------------------------------------*/
+@media (min-width: 765px) and (max-width: 1000px) {
+
+/*---------- Home Page ----------*/
+
+.promo{
+    margin: 0;
+}
+
+.fit{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+
+.fit span{
+    font-size: 1.8rem;
+}
+
+.strong{
+    margin-left: 5rem;
+    font-size: 1.4rem;
+}
+
+.strong span{
+font-size: 1.9rem;
+}
+
+.gym-it{
+    margin-left: 8rem;
+    font-size: 2rem;
+}
+
+.treadmill-img{
+    margin-top: 3rem;
+}
+
+.hi-five-img{
+    margin-top: 3rem;
+}
 
 }
 
+/*------------------------*/
+@media (max-width: 765px) {
+
+/*---------- About Page ----------*/
+
+.connect-img{
+    display: none;
+}
+
+}
 
  /*---------------------------------------------------------*/
-/*------------------------- Media Query 600px - 999px -------------------------*/
+/*------------------------- Media Query 600px + -------------------------*/
         /*---------------------------------------------------------*/
 
 @media (min-width: 620px) and (max-width: 950px) {
@@ -1219,9 +1319,8 @@ margin-top: 1rem;
 
 }
 
-
          /*---------------------------------------------------------*/
-/*------------------------- Media Query 500px - 599px -------------------------*/
+/*------------------------- Media Query 500px + -------------------------*/
          /*---------------------------------------------------------*/
 
 /*---------- Gallery Page ----------*/
@@ -1245,17 +1344,31 @@ margin: 0;
 
 }
 
+        /*---------------------------------------------------------*/
+/*------------------------- Media Query 400px + -------------------------*/
+        /*---------------------------------------------------------*/
 
-        /*---------------------------------------------------------*/
-/*------------------------- Media Query 400px - 499px -------------------------*/
-        /*---------------------------------------------------------*/
+@media (max-width: 450px) {
 
 /*---------- Header ----------*/
-@media (max-width: 450px) {
 .main-title-text{
     font-size: 1.5rem;
 }
+
+/*---------- About Page ----------*/
+
+.about-who{
+    margin-top: 0;
+}
     
+.who-we-are{
+    margin-top: 1rem;
+}
+
+.what-we-do{
+    margin-top: 1rem;
+}
+
 }
 
 
@@ -1275,23 +1388,75 @@ margin: 0;
 }
 
 .fit{
-    margin-top: 0;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.fit span{
+    font-size: 1.8rem;
 }
 
 .strong{
-    margin-left: 5rem;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+}
+
+.strong span{
+font-size: 1.9rem;
 }
 
 .gym-it{
-    margin-left: 10rem;
-    margin-bottom: 2rem;
+    margin-left: 4rem;
+    font-size: 2rem;
 }
 
 .open-logo{
     display: none;
 }
+
+/*---------- Home Page ----------*/
+
+.join-slogan-1{
+margin: 0;
 }
 
+.join-slogan-2{
+margin-left: 0;
+margin-top: 1rem;
+}
+
+.join-slogan-3{
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+}
+
+/*-----------------------------------------------*/
+@media (min-width: 320px) and (max-width: 770px) {
+
+/*---------- Classes Page ----------*/
+
+.classes-slogan-1{
+    font-size: 1.5rem;
+}
+
+.classes-slogan-2{
+    font-size: 1.7rem;
+}
+
+.classes-slogan-3{
+    font-size: 1.9rem;
+}
+
+.classes-para{
+    margin-top: 2rem;
+}
+
+}
+
+/*-----------------------------------------------*/
 @media (min-width: 300px) and (max-width: 620px) {
 
 /*---------- Classes Page ----------*/
@@ -1299,12 +1464,14 @@ margin: 0;
 .day{
     font-size: 1rem;
     padding: 25px 0;
+    
 }
 
 .pink{
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
+  
 }
 
 .pink span{
@@ -1315,6 +1482,7 @@ margin: 0;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
+    
 }
 
 .red span{
@@ -1325,6 +1493,7 @@ margin: 0;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
+  
 }
 
 .orange span{
@@ -1335,6 +1504,7 @@ margin: 0;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
+  
 }
 
 .blue span{
@@ -1345,9 +1515,11 @@ margin: 0;
     font-size: 0.4rem;
     padding: 20px 6px;
     line-height: 10px;
+  
 }
 
 .green span{
     display: none;
 }
+
 }
