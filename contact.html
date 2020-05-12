@@ -26,7 +26,7 @@
 			</a>
 
 			<!--Dropdown Menu-->
-			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -156,7 +156,31 @@
 								</div>
 
 								<!-- Send button -->
-								<button class="btn btn-success btn-block form-button" type="submit">Send</button>
+								<button type="button" class="btn btn-success btn-block form-button" data-toggle="modal" data-target="#success-modal">Send</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                         <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ModalLabel"><span class="contact-modal-header"><strong>Message Sent</strong></span></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                 </button>
+                                                    </div>
+                                            <div class="modal-body">
+                                                Thank you for reaching out to us<br>
+                                                 We hope to respond within 48 hours
+                                                </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal"><span class="contact-button-text">Close</span></button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+
+                                <!--The above code was used from the below site to add a modal message when clicking form button-->
+								<!--Credit: https://getbootstrap.com/docs/4.4/components/modal/-->
 
 								<!-- Social Links -->
 								<p class="form-text">or contact us here:</p>

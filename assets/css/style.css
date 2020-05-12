@@ -208,6 +208,43 @@
   margin-right: auto;
 }
 
+.offer-split-1{
+    width: 37.771rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.813rem;
+}
+
+.offer-split-2{
+    width: 32.771rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-split-3{
+    width: 32.771rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-split-4{
+    width: 32.771rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*--------------------- About Page ---------------------*/
 
 /*---------- Who We Are ----------*/
@@ -230,7 +267,7 @@
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 0.5rem;
+    margin-top: 1.25rem;
     text-align: center;
 }
 
@@ -250,7 +287,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 
 
 /*---------- What We Do ----------*/
@@ -373,7 +409,7 @@
     font-family: "Rajdhani", "roboto";
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 0.5em;
+    margin-top: 1.25rem;
     text-align: center;
 }
 
@@ -389,6 +425,7 @@
         width: 100%; 
         padding: 7px;
         border-radius: 5%;
+        margin-top: 0.313rem;
     }
 
 .gal img:hover{
@@ -656,6 +693,29 @@ font-family: "Rajdhani", "roboto";
 
 /*The above code was used from the below site to help with changing the color of my checkbox*/
 /*Credit: https://stackoverflow.com/questions/48373119/change-bootstrap-4-checkbox-background-color */
+
+
+.close:hover{
+    color: #00b050;
+}
+
+.contact-button-text{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.modal-body{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-modal-header{
+    font-family: "Rajdhani", "roboto";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 /*--- Social Media Links ---*/
 
