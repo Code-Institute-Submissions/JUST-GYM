@@ -41,6 +41,7 @@
     animation-duration: 5s;
     animation-fill-mode: forwards;
     padding: 0.4rem;
+    margin-bottom: 1rem;
 }
 
 @keyframes hero-zoom {
@@ -61,9 +62,10 @@
     color:#4c4c4c;
     text-transform: uppercase;
     letter-spacing: 5px;
-    display: inline;
+    display: inline-block;
     margin-left: 1rem;
     text-decoration: none;
+    margin-top: 2rem;
 }
 
 /*---------- Navigation Menu ----------*/
@@ -78,13 +80,11 @@
     padding: 0.75rem;
     font-size: 1rem;
     line-height: 7px;
-    border-right: 1px solid #4c4c4c;
 }
 
 .menuitem a i{
     color: #4c4c4c;
     font-size: 1rem;
-    border-left: 1px solid #4c4c4c;
     padding: 0.75rem;
     height: 2rem;
     line-height: 7px;
@@ -273,12 +273,6 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-top: 0.5rem;
-    text-align: center;
-}
-
-.about-what{
-    font-family: "Rajdhani", "roboto";
-    color: #4c4c4c;
     text-align: center;
 }
 
@@ -615,6 +609,7 @@ display: block;
 font-family: "Rajdhani", "roboto";
     color: #4c4c4c;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .contact-us-img{
@@ -992,16 +987,6 @@ padding-top: 2.188rem;
 
 @media (max-width: 1330px) {
 
-/*---------- Header ----------*/
-
-.menuitem span{
-    border-right: none;
-}
-
-.menuitem a i{
-    border-left: none;
-}
-
 /*---------- Join Page ----------*/
 
 .classes-slogan-1{
@@ -1146,8 +1131,13 @@ margin-left: 7rem;
 /*-----------------------*/
 @media (max-width: 799px) {
 
-/*---------- Join Page ----------*/
+/*---------- Header ----------*/
 
+    .main-title-text{
+    font-size: 3.2rem;
+}
+
+/*---------- Join Page ----------*/
 
 .join-img{
     margin: 0;
@@ -1155,10 +1145,6 @@ margin-left: 7rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.main-title-text{
-    font-size: 3.2rem;
 }
     
 .virus-img-1{
@@ -1335,6 +1321,7 @@ font-size: 1.9rem;
 @media (max-width: 580px) {
 .contact-woman{
 margin: 0;
+margin-top: 2rem;
 }
 
 }
