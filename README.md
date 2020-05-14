@@ -163,13 +163,13 @@ that is included is an animated company logo which once the page is loaded, the 
 look out for this! The footer contains links to important site pages: Home, Contact & Join. You'll also be able to
 download a class timetable from the Footer as well as find links to social media and the designers LinkedIn account.
 
-### **Home Page**
+### **HOME PAGE**
 
 * The Home page displays a promotion which offers 1-month free membership, it also tells people that the gym is open 24/7.
 There is a large punchy slogan which catches the eye. There are equally large images that really capture attention.
 Finally we are presented with the 'What we offer" section which gives users more detailed information about what Just Gym has to offer.
 
-### **About Page**
+### **ABOUT PAGE**
 
 * The About page displays a clear title at the top and we are presented with the 'Who We Are' top banner. This banner contains
 a text paragraph about exactly who Just Gym is and what they're all about and an attractive image to sit beside.
@@ -178,13 +178,13 @@ a text paragraph about exactly who Just Gym is and what they're all about and an
 do and why they do it. You'll find information about classes, friendship and even diet! Keep a lookout for high-resolution images
 and informative text laid out in a kind of staggered effect.
 
-### **Gallery Page**
+### **GALLERY PAGE**
 
 * The Gallery page has its clear title located at the top. It is built up of thirteen separate high-resolution images of varying sizes nested in
 some rather attractive hoverable thumbnails. You can click on the images and they will increase to fullscreen size in a separate tab. You can
 zoom in to these images to really get a scope of the place!
 
-### **Classes Page**
+### **CLASSES PAGE**
  
  * The Classes page has its clear title located at the top as you'd expect following suit from previous pages. Below the title within the top 
  banner you find yet another punchy slogan as well as some inspirational text and some high-quality images. Yes we're all about high-quality 
@@ -197,7 +197,7 @@ zoom in to these images to really get a scope of the place!
  columns for each one of the classes each labeled with the class name, time, and instructor. This is the grid that is available for download in 
  the Footer.
 
- ### **Contact Page**
+ ### **CONTACT PAGE**
 
  * The Contact page starts with it's clear title at the top. Below this you shall find within the top banner an image depicting the different forms 
  of communication. Adjacent to this is a text paragraph to the user giving detailed information.
@@ -216,7 +216,7 @@ you can find the company's address and telephone number.
 
 ##### *Because Google Map's embedded map is beyond the scope of Code Institute's Milestone Project 1, the scaling and dimensions of the map are a little off, especially when presented in Mobile View. Perfect coding for this feature will be implemented in the near future.*
 
- ### **Join Page**
+ ### **JOIN PAGE**
 
  * Differently to the other pages, the Join page does away with the clear title at the top and instead it jumps straight into a large catchy slogan on the right
 and a promotional offer on the left. Below the slogan and promotion there is a clear high-resolution image of two women connecting on a laptop computer and a 
