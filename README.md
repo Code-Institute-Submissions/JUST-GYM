@@ -259,7 +259,7 @@ Name, Age, Sexual Orientation etc.. and they'll also be able to choose which mem
 
     * Who's got style? Used in Gitpod to style Just Gym's HTML code.
 
-3. [Bootstrap v4.4.1](https://getbootstrap.com/)
+3. [Bootstrap v4.5.0](https://getbootstrap.com/)
 
     * Used for navigation bars, Bootstrap's grid system, forms, and mobile responsiveness.
 
@@ -425,7 +425,7 @@ and publishes a website. Just Gym's website has been successfully hosted by GitH
 1. Navigate to the Github remote repository: [WebSlinger88](https://github.com/WebSlinger88/Milestone-P1).
 2. Click 'Clone or Download'.
 3. Copy the clone HTTPS or SSH by clicking on the copy button.
-4. Open [Git Bash](https://gitforwindows.org/)
+4. Open [Git Bash](https://gitforwindows.org/).
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied.
 7. Press Enter. Your local clone will be created.
