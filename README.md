@@ -22,10 +22,10 @@ You can live demo Just Gym's website here: [Just Gym](https://webslinger88.githu
 
 We're going to provide some insight into the UX process here, focusing on the important who, what and how?
 
-Just Gym, as previously stated is an exercise gymnasium what's soul purpose is to provide an A Class service to men and women of all ages,
-to achieve a healthier lifestyle and overall mindset. People of the community who're looking to keep an active, healthy lifetsyle will be
+Just Gym, as previously stated is an exercise gymnasium what's sole purpose is to provide an A-Class service to men and women of all ages,
+to achieve a healthier lifestyle and overall mindset. People of the community who're looking to keep an active, healthy lifestyle will be
 drawn to what Just Gym has to offer because of its engaging user-friendly website. Information about services, classes and contact details
-can all be found on the website as well as a beautiful portfolio containing some of our much loved clients. Carry on below and read some
+can all be found on the website as well as a beautiful portfolio containing some of our much-loved clients. Carry on below and read some
 of Just Gym's user stories to get a feel for what people have been saying about Just Gym's new website.
 
 ---
@@ -47,16 +47,16 @@ of Just Gym's user stories to get a feel for what people have been saying about 
 ---
 ### **SCOPE**
 
-* The scope of the Just Gym website is to provide both potential clients and existing clients with necessary information which could potentially 
+* The scope of the Just Gym website is to provide both potential clients and existing clients with the necessary information which could potentially 
 lead to a new member and/or providing quality information which overall makes the user happy.
 
 ---
 ### **STRUCTURE**
 
-* Each page will have an identicle Header and Hooter located at the top and bottom of the screens respectively. There are six pages in total and they
+* Each page will have an identical Header and Hooter located at the top and bottom of the screens respectively. There are six pages in total and they
 are the Home page, About page, Gallery page, Classes page, Contact page and Join page. It's a general rule that each page has at least a top banner
-and a middle banner which contain titles, images, and text. The only acception is that of the Gallery page which just flows from top to bottom with
-high resolution images.
+and a middle banner which contains titles, images, and text. The only exception is that of the Gallery page which just flows from top to bottom with
+high-resolution images.
 
 ---
 ### **SKELETON**
@@ -78,7 +78,7 @@ Below you shall find some images of the original sketches used to help develop t
 
 
 After drawing up the sketches it was time to get them onto the screen. To do this a wireframe was created using Balsamiq Wireframes 4.
-Wireframes are used to display what the creator ultimately invisions the website to look like, roughly! It acts as one of the first stepping stones
+Wireframes are used to display what the creator ultimately envisions the website to look like, roughly! It acts as one of the first stepping stones
 of the journey. Please find below the original Wireframes for Just Gym's project.
 
 ##### *Classes page was created after a middle project review with my mentor and design was swiftly implemented in a mock-up.*
@@ -101,8 +101,8 @@ of the journey. Please find below the original Wireframes for Just Gym's project
 
 Finally with the basics down on paper and screen, it was time to start shaping things up. After wireframes it's time to take things a little more
 seriously. Enter Adbode XD. Adobe XD is a powerful piece of software designed to assist artists worldwide. More detailed designs have now been
-concucted and sketches etc.. are now a thing of the past! If you scan down slightly you will find links to Just Gym's Mock Ups. You can clearly
-see how the project has evolved and you'll also notice a new addition. A new page which wasn't initially introducted has made it's way into the picture.
+conducted and sketches etc.. are now a thing of the past! If you scan down slightly you will find links to Just Gym's Mock-Ups. You can clearly
+see how the project has evolved and you'll also notice a new addition. A new page that wasn't initially introduced has made its way into the picture.
 The Classes page is in the mix! Check it out below.
 
 * [Home Page Mock Up](assets/images/readme/home-mock.png)
@@ -120,8 +120,8 @@ The Classes page is in the mix! Check it out below.
 ---
 ### **SURFACE**
 
-The color scheme chosen for this website offers soft, subtle and neutral colors.
-This was chosen because of the colors' positive vibe and feel good effect.
+The color scheme chosen for this website offers soft, subtle, and neutral colors.
+This was chosen because of the colors' positive vibe and feel-good effect.
 
 ![Website Color Scheme](assets/images/readme/website-colors.png "Website Color Scheme")
 
@@ -135,7 +135,7 @@ This was chosen because of the colors' positive vibe and feel good effect.
 | Blue              |#0000FF
 
 On the Classes page you will find a class timetable. The color scheme is slightly more vibrant.
-This was chosen to try and attact potential attendees and bring more life to the page.
+This was chosen to try and attract potential attendees and bring more life to the page.
 
 ![Classes Color Scheme](assets/images/readme/class-colors.png "Classes Color Scheme")
 
