@@ -18,11 +18,12 @@ You can live demo Just Gym's website here: [Just Gym](https://webslinger88.githu
 
 ---
 
-## **UX**
+## **UX** 
 
-We're going to provide some insight into the UX process here, focusing on the important who, what and how?
+The user experience (UX) is what a user of a particular product experiences when using that product. A UX designer's job is thus to create a product that 
+provides the best possible user experience. We're going to provide some insight into the UX process here, focusing on the important Who, What and How?
 
-Just Gym, as previously stated is an exercise gymnasium what's sole purpose is to provide an A-Class service to men and women of all ages,
+Just Gym, as previously stated, is an exercise gymnasium that's sole purpose is to provide an A-Class service to men and women of all ages,
 to achieve a healthier lifestyle and overall mindset. People of the community who're looking to keep an active, healthy lifestyle will be
 drawn to what Just Gym has to offer because of its engaging user-friendly website. Information about services, classes and contact details
 can all be found on the website as well as a beautiful portfolio containing some of our much-loved clients. Carry on below and read some
@@ -37,7 +38,7 @@ of Just Gym's user stories to get a feel for what people have been saying about 
 
 >  * As a prospective client I think it's great that I can contact the gym easily without any fuss. - John H.
 
->  * As a current client I was drawn to the color scheme and layout of this website. - Chloe R.
+>  * As a current client I was drawn to the colour scheme and layout of this website. - Chloe R.
 
 ---
 ### **STRATEGY**
@@ -48,7 +49,7 @@ of Just Gym's user stories to get a feel for what people have been saying about 
 ### **SCOPE**
 
 * The scope of the Just Gym website is to provide both potential clients and existing clients with the necessary information which could potentially 
-lead to a new member and/or providing quality information which overall makes the user happy.
+lead to a new member joining Just Gym and/or providing quality information to ensure the user is fully informed.
 
 ---
 ### **STRUCTURE**
@@ -61,7 +62,7 @@ high-resolution images.
 ---
 ### **SKELETON**
 
-Just Gym's website started on a piece of paper. Sketches were drawn out and a decent design was soon ready to take a leap into the digital world.
+* Just Gym's website started on a piece of paper. Sketches were drawn out and a decent design was soon ready to take the leap into the digital world.
 Below you shall find some images of the original sketches used to help develop this project.
 
 #### *Sketches*
@@ -99,11 +100,11 @@ of the journey. Please find below the original Wireframes for Just Gym's project
 
 #### *Mock Ups*
 
-Finally with the basics down on paper and screen, it was time to start shaping things up. After wireframes it's time to take things a little more
-seriously. Enter Adbode XD. Adobe XD is a powerful piece of software designed to assist artists worldwide. More detailed designs have now been
-conducted and sketches etc.. are now a thing of the past! If you scan down slightly you will find links to Just Gym's Mock-Ups. You can clearly
-see how the project has evolved and you'll also notice a new addition. A new page that wasn't initially introduced has made its way into the picture.
-The Classes page is in the mix! Check it out below.
+Finally with the basics down on paper and screen, it was time to start shaping things up. After wireframes, it's time to take things a little more
+seriously. Enter Adbode XD. Adobe XD is a powerful piece of software designed to assist artists worldwide. More detailed designs are now progressed 
+and sketches etc.. are now a thing of the past! If you scan down slightly you will find links to Just Gym's Mock-Ups. You can clearly see how the 
+project has evolved and you'll also notice a new addition. A new page that wasn't initially introduced has made its way into the picture. The Classes 
+page is in the mix! Check it out below.
 
 * [Home Page Mock Up](assets/images/readme/home-mock.png)
 
@@ -120,10 +121,10 @@ The Classes page is in the mix! Check it out below.
 ---
 ### **SURFACE**
 
-The color scheme chosen for this website offers soft, subtle, and neutral colors.
-This was chosen because of the colors' positive vibe and feel-good effect.
+The colour scheme chosen for this website offers soft, subtle, and neutral colours.
+This was chosen because of the colours' positive vibe and feel-good effect.
 
-![Website Color Scheme](assets/images/readme/website-colors.png "Website Color Scheme")
+![Website colour Scheme](assets/images/readme/website-colours.png "Website colour Scheme")
 
 | **Colour Name**   | **Colour RGB Code**    
 | -------------     |:-------------:| 
@@ -134,10 +135,10 @@ This was chosen because of the colors' positive vibe and feel-good effect.
 | Custom Green      |#00B050
 | Blue              |#0000FF
 
-On the Classes page you will find a class timetable. The color scheme is slightly more vibrant.
+On the Classes page you will find a class timetable. The colour scheme is slightly more vibrant.
 This was chosen to try and attract potential attendees and bring more life to the page.
 
-![Classes Color Scheme](assets/images/readme/class-colors.png "Classes Color Scheme")
+![Classes colour Scheme](assets/images/readme/class-colours.png "Classes colour Scheme")
 
 | **Colour Name**   | **Colour RGB Code**    
 | -------------     |:-------------:| 
@@ -172,7 +173,7 @@ Finally we are presented with the 'What we offer" section which gives users more
 ### **ABOUT PAGE**
 
 * The About page displays a clear title at the top and we are presented with the 'Who We Are' top banner. This banner contains
-a text paragraph about exactly who Just Gym is and what they're all about and an attractive image to sit beside.
+a text paragraph detailing who Just Gym are and what they stand for. Opposite the text paragraph is an attractive image for aesthetic purposes.
 
 * Moving down to the middle banner we are presented with the 'What We Do' section of the page. Here Just Gym describes exactly what they
 do and why they do it. You'll find information about classes, friendship and even diet! Keep a lookout for high-resolution images
@@ -182,7 +183,7 @@ and informative text laid out in a kind of staggered effect.
 
 * The Gallery page has its clear title located at the top. It is built up of thirteen separate high-resolution images of varying sizes nested in
 some rather attractive hoverable thumbnails. You can click on the images and they will increase to fullscreen size in a separate tab. You can
-zoom in to these images to really get a scope of the place!
+zoom in to these images to really get a feel for the place!
 
 ### **CLASSES PAGE**
  
@@ -205,11 +206,11 @@ zoom in to these images to really get a scope of the place!
  * Moving down to the middle banner you'll find an image of a woman with headphones on which hints to the idea that there will always be someone to
  help on the other end of the line. Adjacent to this is Just Gym's contact form. The contact form is quite simplistic and therefore user friendly.
  There are three initial fields to fill in: Name, E-mail, and Phone. Below this there is a dropdown box which asks the user to choose an option.
- There are hour options to choose from: Feedback, Classes, Personal Training, and Opening Times. Below this there is a resizable text box where the
+ There are four options to choose from: Feedback, Classes, Personal Training, and Opening Times. Below this there is a resizable text box where the
  user can easily type out a message. Beneath there is a neat little button to click which gives the user the opportunity to have the whole message
  sent to their e-mail address. finally below that you'll find the 'Send' button and some social links.
 
- ##### *Currently there is no Java Script coded into this website therefore there currently isn't the capability to send e-mails or receive notifications for sent mails.his will be a feature that will be implemented in the near future. For now a Modal has been set up in place of this and a notification will appear when the 'Send' button is clicked. Unfortunately this has disabled the required fields so for the time being, it is possible to click the 'Send' button without actually filling out any fields. The implementation of Java Script will also enable e-mails to be copied and sent to their owner. Currently the buttons for this form are purely aesthetic.*
+ ##### *Currently there is no Java Script coded into this website therefore there currently isn't the capability to send e-mails or receive notifications for sent mails. This will be a feature that will be implemented in the near future. For now a Modal has been set up in place of this and a notification will appear when the 'Send' button is clicked. Unfortunately this has disabled the required fields so for the time being, it is possible to click the 'Send' button without actually filling out any fields. The implementation of Java Script will also enable e-mails to be copied and sent to their owner. Currently the buttons for this form are purely aesthetic.*
 
 * Finally at the bottom you will find an embedded Google Map which shows the location of Just Gym's fictional establishment. Underneath the embedded Google Map
 you can find the company's address and telephone number.
@@ -221,7 +222,7 @@ you can find the company's address and telephone number.
  * Differently to the other pages, the Join page does away with the clear title at the top and instead it jumps straight into a large catchy slogan on the right
 and a promotional offer on the left. Below the slogan and promotion there is a clear high-resolution image of two women connecting on a laptop computer and a 
 mobile telephone device. This shows users that they are in the right place to join up. Opposite is a few words of wisdom for you to digest. This takes us to the
-bottom banner where we are issued with a notice stating that Just Gym is currently closed due to unforeseen circumstances. You will find viral images colored in red
+bottom banner where we are issued with a notice stating that Just Gym is currently closed due to unforeseen circumstances. You will find viral images coloured in red
 along with a bold red title and a nice portion of text. Within this text is a link to Just Gym's Contact page and also a link to the NHS website which will offer
 important advice regarding the current world situation.
 
@@ -341,9 +342,9 @@ Firstly each text field has the ability to be written in. There is an HTML code 
 is ignored due to the fact that a key piece of code has been removed. The 'Send' button's type has been changed from type="submit" to type="button". This is because the developer
 thought it was best to include a Modal feature when the 'Send' button is clicked. This Modal will appear to inform the user that their message has been sent. The developer
 did this because it was best to have a functional button rather than an inactive button. No actual e-mail is sent when the 'Send' button is clicked. There is also a 'Send me a
-copy of this message' check-box under the form. When clicked the box is filled with a tick and the color green. This has been tested and works perfectly, although no actual e-mail
+copy of this message' check-box under the form. When clicked the box is filled with a tick and the colour green. This has been tested and works perfectly, although no actual e-mail
 is sent. This has been discussed in *FEATURES LEFT TO IMPLEMENT* and a plan is in place to correct the issue. Below the contact form are four Font Awesome icons. These icons act 
-in the same way as the Footer icons. They change color when interacted with and they direct you to four different social media sites: Facebook, Twitter, LinkedIn and Instagram.
+in the same way as the Footer icons. They change colour when interacted with and they direct you to four different social media sites: Facebook, Instagram, Twitter and YouTube.
 Each link has been tested and each link takes you to the correct page. Located in the bottom banner the user will find an embedded Google Map image. This is an interactive map
 that lets you move it around. The map isn't perfect because the bottom of it is slightly cropped out. The map also isn't 100% responsive. This has been discussed in *FEATURES LEFT 
 TO IMPLEMENT* and a plan is in place to correct the issue. At the bottom right-hand side of the screen there is a 'Back to top?' line of text with a Font Awesome arrow icon. When a 
@@ -355,7 +356,7 @@ all resolutions apart from the mentioned Google Map.
 The user is presented with the Join page. There are only really three major things to test on the Join page if you ignore the Header and Footer. Located in the Corona banner (bottom
 banner) there are two links nested within the paragraph text. The first is a Contact Us link. This a link to the Contact page. When a user clicks this link they are directed to the 
 Contact page. The link works as expected. When a user hovers over this link, it activates a shadow effect on the text which gives the effect of the text being bolder. The second 
-link is a Font Awesome icon. The link icon changes color when you hover over it. Similar to before the icon pulsates while it has interaction. Clicking the link will open up a new 
+link is a Font Awesome icon. The link icon changes colour when you hover over it. Similar to before the icon pulsates while it has interaction. Clicking the link will open up a new 
 tab in the user's browser and is presented with the NHS website. This has been tried and tested, everything works well. At the bottom right-hand side of the screen there is a 'Back 
 to top?' line of text with a Font Awesome arrow icon. When a user hovers their mouse over the icon it pulsates upwards. When a user clicks on the link they are directed back to the 
 top of the page. The Classes page acts responsively across all resolutions.
@@ -366,10 +367,10 @@ Similar to the Header, the Footer also has navigation links. These links are Hom
 has been tested across all Just Gym web pages and each link navigates you to the correct page. Each of these links increase in size slightly when a user hovers their #
 mouse over the link. There are also Font Awesome icons here which pulsate when they're interacted with. This has been tested and is true across all Just Gym web pages. 
 To the right of the navigation links users will find some text indicating that you're able to download a printable Just Gym class timetable. The download link is again
-a Font Awesome icon that changes color as you hover over it. Similar to before the icon pulsates while it has interaction. Clicking the link will open up a new tab in
+a Font Awesome icon that changes colour as you hover over it. Similar to before the icon pulsates while it has interaction. Clicking the link will open up a new tab in
 the user's browser and is presented with a printable PDF file. This has also been tested across all pages. Moving to the right again the user will find links to social
-media. Keeping to the theme, the links are also Font Awesome icons that change color and pulsate when interacted with. When clicked, each link opens a new tab and directs
-the user to one of four possible home pages: Facebook, Instagram, Twitter and Youtube. All links have been tested across all pages and everything works as expected. Finally
+media. Keeping to the theme, the links are also Font Awesome icons that change colour and pulsate when interacted with. When clicked, each link opens a new tab and directs
+the user to one of four possible home pages: Facebook, Instagram, Twitter and YouTube. All links have been tested across all pages and everything works as expected. Finally
 on the far right-hand side the user will find a small line of text which contains a link to Just Gym's web developer's LinkedIn profile. When a user hovers over this link,
 it activates a shadow effect on the text which gives the effect of the text being bolder. This has been tested and is true across all Just Gym web pages. The header acts 
 responsively across all resolutions.
@@ -477,8 +478,8 @@ Inspiration was used in various locations across the world wide web. Please see 
 
     * The base code to create a contact form was taken from MDBootstrap's extensive library. - [MDBootstrap](https://mdbootstrap.com/)
 
-* Contact - [Google Maps](https://www.youtube.com/watch?v=LoOb3jSnEw0&feature=youtu.be)
+* Contact - [Google Maps](https://www.YouTube.com/watch?v=LoOb3jSnEw0&feature=youtu.be)
 
-    * Tutorial on how to embed Google Maps by Jahra Jarin. - [Youtube](https://www.youtube.com)
+    * Tutorial on how to embed Google Maps by Jahra Jarin. - [YouTube](https://www.YouTube.com)
 
 *A special thank you to Maranatha Code Institute Mentor and Claire Code Institute Tutor for aid and assistance* 
