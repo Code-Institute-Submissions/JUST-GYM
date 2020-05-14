@@ -12,7 +12,7 @@ Ultimately the goal is to attract potential new clients and to provide current c
 
 Please feel free to delve into a demo of Just Gym's website.
 
-You can live demo Just Gym's website here: [Just Gym](https://webslinger88.github.io/Milestone-P1/).
+You can live demo Just Gym's website here: [Just Gym](https://webslinger88.github.io/JUST-GYM/).
 
 ![Responsive showcase image of Just Gym website](assets/images/readme/just-gym-multi-platform.png "Responsive showcase image of Just Gym website")
 
