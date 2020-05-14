@@ -125,11 +125,11 @@ This was chosen because of the colors' positive vibe and feel good effect.
 
 ![Website Color Scheme](assets/images/readme/website-colors.png "Website Color Scheme")
 
-| **Colour name**   | **Colour RGB Code**    
+| **Colour Name**   | **Colour RGB Code**    
 | -------------     |:-------------:| 
 | Custom Grey       |#4C4C4C
 | Custom Blue       |#AEA9FB
-| Softer Blu        |#F8F8F8
+| Softer Blue       |#F8F8F8
 | White             |#FFFFFF
 | Custom Green      |#00B050
 | Blue              |#0000FF
@@ -139,7 +139,7 @@ This was chosen to try and attact potential attendees and bring more life to the
 
 ![Classes Color Scheme](assets/images/readme/class-colors.png "Classes Color Scheme")
 
-| **Colour name**   | **Colour RGB Code**    
+| **Colour Name**   | **Colour RGB Code**    
 | -------------     |:-------------:| 
 | Custom Pink       |#F16B84
 | Custom Red        |#955029
@@ -454,7 +454,6 @@ Various websites were used for Just Gym's website to become what it is today. Al
 
     * [Google Fonts](https://fonts.google.com/)
     * [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free)
-    * [Grammarly](https://www.grammarly.com)
 
 ---
 
