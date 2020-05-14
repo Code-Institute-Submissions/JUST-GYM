@@ -12,7 +12,7 @@ Ultimately the goal is to attract potential new clients and to provide current c
 
 Please feel free to delve into a demo of Just Gym's website.
 
-You can live demo Just Gym's website here: https://webslinger88.github.io/Milestone-P1/.
+You can live demo Just Gym's website here: [Just Gym](https://webslinger88.github.io/Milestone-P1/).
 
 ![Responsive showcase image of Just Gym website](assets/images/readme/just-gym-multi-platform.png "Responsive showcase image of Just Gym website")
 
@@ -31,13 +31,13 @@ of Just Gym's user stories to get a feel for what people have been saying about 
 ---
 ### **USER STORIES**
 
-> As a prospective client I want to see pictures of the gym and equipment. - Katie B.
+>  * As a prospective client I was pleased to see pictures of the gym and equipment. - Katie B. 
 
-> As a current client I think it's great that I can view the class timetable. I can even download a timetable! - Sam S.
+>  * As a current client I think it's great that I can view the class timetable. I can even download a timetable! - Sam S.
 
-> As a prospective client I want to be able to contact the gym easily without any fuss. - John H.
+>  * As a prospective client I think it's great that I can contact the gym easily without any fuss. - John H.
 
-> As a current client I was drawn to the color scheme and layout of this website. - Chloe R.
+>  * As a current client I was drawn to the color scheme and layout of this website. - Chloe R.
 
 ---
 ### **STRATEGY**
@@ -147,9 +147,9 @@ This was chosen to try and attact potential attendees and bring more life to the
 | Custom Blue       |#005B9B
 | Custom Green      |#67AA1C
 
- * The font used throughout Just Gym's website is Google font's Rajdhani - [Google Fonts - Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani)
+ * The font used throughout Just Gym's website is Google font's Rajdhani - [Google Fonts - Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani).
 
- * If at any point a browser cannot support the Rajdhani font, the browser will fall back on Roboto - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
+ * If at any point a browser cannot support the Rajdhani font, the browser will fall back on Roboto - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto?query=roboto).
 
 ---
  ## **EXISTING FEATURES**
@@ -385,8 +385,8 @@ The Just Gym website has been tested using (all on 18" Dell XPS with Windows 10 
 * Edge on Windows 10 Version 81.0.416.72
 * Google Chrome on Android (Samsung Galaxy S8+) 81.0.4044.138
 * Safari on iOS 13.4.1 (Apple iPhone 7 Plus)
-* Internet Explorer 10 - via https://www.ieonchrome.com/
-* Internet Explorer 11 - via https://www.ieonchrome.com/
+* Internet Explorer 10 - via [Cloud Browser](https://www.ieonchrome.com/)
+* Internet Explorer 11 - via [Cloud Browser](https://www.ieonchrome.com/)
 
 ### **SPELLING & GRAMMAR**
 
@@ -406,6 +406,29 @@ The website has also been tested via the [W3C Markup Validation Service](https:/
 
 ## **DEPLOYMENT**
 
+[Github](https://github.com/) Pages has been used to deploy the Just Gym website.
+
+#### **CONFIGURE GITHUB PAGES**
+
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, 
+and publishes a website. Just Gym's website has been successfully hosted by GitHub Pages by following these processes:
+
+1. Navigate to the Github remote repository: [WebSlinger88](https://github.com/WebSlinger88/Milestone-P1).
+2. Click on Settings.
+3. Scroll down to the GitHub Pages section.
+4. Locate Source's dropdown menu and select 'Master Branch'.
+5. After a short period of time, a link will become available above. Just Gym's link is: [Just Gym](https://webslinger88.github.io/Milestone-P1/).
+
+#### **CLONING REPOSITORY**
+
+1. Navigate to the Github remote repository: [WebSlinger88](https://github.com/WebSlinger88/Milestone-P1).
+2. Click 'Clone or Download'.
+3. Copy the clone HTTPS or SSH by clicking on the copy button.
+4. Open [Git Bash](https://gitforwindows.org/)
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied.
+7. Press Enter. Your local clone will be created.
+
 ---
 
 ## **CREDITS**
@@ -414,7 +437,7 @@ Various websites were used for Just Gym's website to become what it is today. Al
 
 ### **CONTENT**
 
-* All textual content on the Just Gym website was written by Lewis Wheeler - Just Gym's Full Stack Web Developer.
+* All textual content on the Just Gym website was written by [Lewis Wheeler](https://www.linkedin.com/in/lewis-wheeler-aa91791a0/) - Just Gym's Full Stack Web Developer.
 
 ### **MEDIA**
 
