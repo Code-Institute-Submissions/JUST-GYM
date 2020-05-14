@@ -54,7 +54,7 @@ lead to a new member joining Just Gym and/or providing quality information to en
 ---
 ### **STRUCTURE**
 
-* Each page will have an identical Header and Hooter located at the top and bottom of the screens respectively. There are six pages in total and they
+* Each page will have an identical Header and Footer located at the top and bottom of the screens respectively. There are six pages in total and they
 are the Home page, About page, Gallery page, Classes page, Contact page and Join page. It's a general rule that each page has at least a top banner
 and a middle banner which contains titles, images, and text. The only exception is that of the Gallery page which just flows from top to bottom with
 high-resolution images.
