@@ -540,7 +540,7 @@ display: block;
     letter-spacing: 3px;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 1px 1px 1px #4c4c4c;
+    text-shadow: 4px 4px 4px #4c4c4c;
 }
 
 .pink{
@@ -962,7 +962,6 @@ font-family: "Rajdhani", "roboto";
     font-size: 0.875rem;
     letter-spacing: 2px;
     list-style-type: none;
-
 }
 
 .mini-menu li span:hover{
