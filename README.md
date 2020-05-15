@@ -8,7 +8,60 @@ This website provides an overview of services, class timetables, contact informa
 Ultimately the goal is to attract potential new clients and to provide current clients with useful information.
 
 ---
-## **LIVE DEMO**
+
+## **TABLE OF CONTENTS**
+
+
+1. [Live Demo](#live-demo)                                     
+2. [UX](#ux)
+    1. [User Stories](#stories)
+    2. [Strategy](#strategy)
+    3. [Scope](#scope)
+    4. [Structure](#structure)
+    5. [Skeleton](#skeleton)
+        * [Sketches](#sketches)
+        * [Wireframes](#wireframes)
+        * [Mockups](#mockups)
+    6. [Surface](#surface)
+
+
+3. [Existing Features](#existing)
+    1. [Navigation](#navigation)
+    2. [Home](#home)
+    3. [About](#about)
+    4. [Gallery](#gallery)
+    5. [Classes](#classes)
+    6. [Contact](#contact)
+    7. [Join](#join)
+
+
+4. [Features left to Implement](#features-left)
+5. [Technologies](#technologies)
+6. [Testing](#testing)
+    1. [Header](#head-test)
+    2. [Home](#home-test)
+    3. [About](#about-test)
+    4. [Gallery](#gallery-test)
+    5. [Classes](#classes-test)
+    6. [Contact](#contact-test)
+    7. [Join](#join-test)
+    8. [Footer](#foot-test)
+    9. [Display Testing](#display-test)
+    10. [Image Size Reduction](#size)
+    11. [Spelling & Grammar](#spell)
+    12. [Code Validation](#validate)
+
+7. [Deployment](#deployment)
+    1. [Configure Github Pages](#pages)
+    2. [Cloning Repository](#cloning)
+
+8. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Acknowledgements](#thanks)
+
+---
+## **LIVE DEMO** <a name="live-demo"></a>
 
 Please feel free to delve into a demo of Just Gym's website.
 
@@ -18,7 +71,7 @@ You can live demo Just Gym's website here: [Just Gym](https://webslinger88.githu
 
 ---
 
-## **UX** 
+## **UX** <a name="ux"></a>
 
 The user experience (UX) is what a user of a particular product experiences when using that product. A UX designer's job is thus to create a product that 
 provides the best possible user experience. We're going to provide some insight into the UX process here, focusing on the important Who, What and How?
@@ -30,7 +83,7 @@ can all be found on the website as well as a beautiful portfolio containing some
 of Just Gym's user stories to get a feel for what people have been saying about Just Gym's new website.
 
 ---
-### **USER STORIES**
+### **USER STORIES** <a name="stories"></a>
 
 >  * As a prospective client I was pleased to see pictures of the gym and equipment. - Katie B. 
 
@@ -41,18 +94,18 @@ of Just Gym's user stories to get a feel for what people have been saying about 
 >  * As a current client I was drawn to the colour scheme and layout of this website. - Chloe R.
 
 ---
-### **STRATEGY**
+### **STRATEGY** <a name="strategy"></a>
 
 * The strategy of the Just Gym website is to make important information accessible to new/existing clients while maintaining a clean and modern look.
 
 ---
-### **SCOPE**
+### **SCOPE** <a name="scope"></a>
 
 * The scope of the Just Gym website is to provide both potential clients and existing clients with the necessary information which could potentially 
 lead to a new member joining Just Gym and/or providing quality information to ensure the user is fully informed.
 
 ---
-### **STRUCTURE**
+### **STRUCTURE** <a name="structure"></a>
 
 * Each page will have an identical Header and Footer located at the top and bottom of the screens respectively. There are six pages in total and they
 are the Home page, About page, Gallery page, Classes page, Contact page and Join page. It's a general rule that each page has at least a top banner
@@ -60,12 +113,12 @@ and a middle banner which contains titles, images, and text. The only exception 
 high-resolution images.
 
 ---
-### **SKELETON**
+### **SKELETON** <a name="skeleton"></a>
 
 * Just Gym's website started on a piece of paper. Sketches were drawn out and a decent design was soon ready to take the leap into the digital world.
 Below you shall find some images of the original sketches used to help develop this project.
 
-#### *Sketches*
+#### *Sketches* <a name="sketches"></a>
 
 * [Home Page Sketch](assets/images/readme/home-sketch.jpg)
 
@@ -84,7 +137,7 @@ of the journey. Please find below the original Wireframes for Just Gym's project
 
 ##### *Classes page was created after a middle project review with my mentor and design was swiftly implemented in a mock-up.*
 
-#### *Wireframes*
+#### *Wireframes* <a name="wireframes"></a>
 
 * [Home Page Wireframe](assets/images/readme/home-wireframe.png)
 
@@ -98,7 +151,7 @@ of the journey. Please find below the original Wireframes for Just Gym's project
 
 ##### *Classes page was created after a middle project review with my mentor and design was swiftly implemented in a mock-up.*
 
-#### *Mock Ups*
+#### *Mock Ups* <a name="mockups"></a>
 
 Finally with the basics down on paper and screen, it was time to start shaping things up. After wireframes, it's time to take things a little more
 seriously. Enter Adbode XD. Adobe XD is a powerful piece of software designed to assist artists worldwide. More detailed designs are now progressed 
@@ -119,7 +172,7 @@ page is in the mix! Check it out below.
 * [Join Page Mock Up](assets/images/readme/join-mock.png)
 
 ---
-### **SURFACE**
+### **SURFACE** <a name="surface"></a>
 
 The colour scheme chosen for this website offers soft, subtle, and neutral colours.
 This was chosen because of the colours' positive vibe and feel-good effect.
@@ -153,9 +206,9 @@ This was chosen to try and attract potential attendees and bring more life to th
  * If at any point a browser cannot support the Rajdhani font, the browser will fall back on Roboto - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto?query=roboto).
 
 ---
- ## **EXISTING FEATURES**
+ ## **EXISTING FEATURES** <a name="existing"></a>
 
-### **NAVIGATION**
+### **NAVIGATION** <a name="navigation"></a>
 
 * All pages feature a top navigation bar and a Footer located at the bottom. The top navigation bar includes a company
 logo in the top left-hand corner and adjacent to it is the company title. The right-hand side of the navigation bar
@@ -164,13 +217,13 @@ that is included is an animated company logo which once the page is loaded, the 
 look out for this! The footer contains links to important site pages: Home, Contact & Join. You'll also be able to
 download a class timetable from the Footer as well as find links to social media and the designers LinkedIn account.
 
-### **HOME PAGE**
+### **HOME PAGE** <a name="home"></a>
 
 * The Home page displays a promotion which offers 1-month free membership, it also tells people that the gym is open 24/7.
 There is a large punchy slogan which catches the eye. There are equally large images that really capture attention.
 Finally we are presented with the 'What we offer" section which gives users more detailed information about what Just Gym has to offer.
 
-### **ABOUT PAGE**
+### **ABOUT PAGE** <a name="about"></a>
 
 * The About page displays a clear title at the top and we are presented with the 'Who We Are' top banner. This banner contains
 a text paragraph detailing who Just Gym are and what they stand for. Opposite the text paragraph is an attractive image for aesthetic purposes.
@@ -179,13 +232,13 @@ a text paragraph detailing who Just Gym are and what they stand for. Opposite th
 do and why they do it. You'll find information about classes, friendship and even diet! Keep a lookout for high-resolution images
 and informative text laid out in a kind of staggered effect.
 
-### **GALLERY PAGE**
+### **GALLERY PAGE** <a name="gallery"></a>
 
 * The Gallery page has its clear title located at the top. It is built up of thirteen separate high-resolution images of varying sizes nested in
 some rather attractive hoverable thumbnails. You can click on the images and they will increase to fullscreen size in a separate tab. You can
 zoom in to these images to really get a feel for the place!
 
-### **CLASSES PAGE**
+### **CLASSES PAGE** <a name="classes"></a>
  
  * The Classes page has its clear title located at the top as you'd expect following suit from previous pages. Below the title within the top 
  banner you find yet another punchy slogan as well as some inspirational text and some high-quality images. Yes we're all about high-quality 
@@ -198,7 +251,7 @@ zoom in to these images to really get a feel for the place!
  columns for each one of the classes each labeled with the class name, time, and instructor. This is the grid that is available for download in 
  the Footer.
 
- ### **CONTACT PAGE**
+ ### **CONTACT PAGE** <a name="contact"></a>
 
  * The Contact page starts with it's clear title at the top. Below this you shall find within the top banner an image depicting the different forms 
  of communication. Adjacent to this is a text paragraph to the user giving detailed information.
@@ -210,14 +263,15 @@ zoom in to these images to really get a feel for the place!
  user can easily type out a message. Beneath there is a neat little button to click which gives the user the opportunity to have the whole message
  sent to their e-mail address. finally below that you'll find the 'Send' button and some social links.
 
- ##### *Currently there is no Java Script coded into this website therefore there currently isn't the capability to send e-mails or receive notifications for sent mails. This will be a feature that will be implemented in the near future. For now a Modal has been set up in place of this and a notification will appear when the 'Send' button is clicked. Unfortunately this has disabled the required fields so for the time being, it is possible to click the 'Send' button without actually filling out any fields. The implementation of Java Script will also enable e-mails to be copied and sent to their owner. Currently the buttons for this form are purely aesthetic.*
+ ##### *Currently there is no Java Script coded into this website therefore there currently isn't the capability to send e-mails or receive notifications for sent mails. This will be a feature that will be implemented in the near future. For now a Modal has been set up in place of this and a notification will appear when the 'Send' button is clicked. Unfortunately this has disabled the 'required' fields so for the time being, it is possible to click the 'Send' button without actually filling out any fields. The implementation of Java Script will also enable e-mails to be copied and sent to their owner. Currently the buttons for this form are purely aesthetic.*
 
-* Finally at the bottom you will find an embedded Google Map which shows the location of Just Gym's fictional establishment. Underneath the embedded Google Map
-you can find the company's address and telephone number.
+* At the bottom you will find an embedded Google Map which shows the location of Just Gym's fictional establishment. The map is interactive 
+meaning you can click, drag, and navigate the map using your mouse. The Google map is completely responsive so it looks great on all browsers and
+screen resolutions. 
 
-##### *Because Google Map's embedded map is beyond the scope of Code Institute's Milestone Project 1, the scaling and dimensions of the map are a little off, especially when presented in Mobile View. Perfect coding for this feature will be implemented in the near future.*
+* Underneath the embedded Google Map you can find the company's address and telephone number with a few appropriate Font Awesome icons.
 
- ### **JOIN PAGE**
+ ### **JOIN PAGE** <a name="join"></a>
 
  * Differently to the other pages, the Join page does away with the clear title at the top and instead it jumps straight into a large catchy slogan on the right
 and a promotional offer on the left. Below the slogan and promotion there is a clear high-resolution image of two women connecting on a laptop computer and a 
@@ -226,11 +280,11 @@ bottom banner where we are issued with a notice stating that Just Gym is current
 along with a bold red title and a nice portion of text. Within this text is a link to Just Gym's Contact page and also a link to the NHS website which will offer
 important advice regarding the current world situation.
 
-##### *In the near future Just Gym's Join page will do away with the current alert and shall be replaced with a Join Now form. Here users will be able to enter their Name, Age, Sexual Orientation, etc. and they'll also be able to choose which membership package they wish to employ.*
+##### *In the near future Just Gym's Join page will do away with the current pandemic message and shall be replaced with a Join Now form. Here users will be able to enter their Name, Age, Sexual Orientation, etc. and they'll also be able to choose which membership package they wish to employ.*
 
 ---
 
- ## **FEATURES LEFT TO IMPLEMENT**
+ ## **FEATURES LEFT TO IMPLEMENT** <a name="features-left"></a>
 
  * As mentioned above the contact us form has little to no action. No e-mail gets sent when the 'Send' button is clicked. The idea is to have e-mails sent
  automatically to Just Gym staff when the user submits the form. E-mails also need to be copied and sent to the user when the 'copy' button is clicked.
@@ -240,10 +294,7 @@ important advice regarding the current world situation.
  a form without filling out the necessary fields. This will be fixed in time so that a proper notification message appears and all relevant fields are set to
  'Required'. This will be implemented through further learning.
 
- * Also mentioned above is the stability of the embedded Google map. This is currently being worked on and in the near future the site will have a Google map
- that is positioned correctly, responsive, and ready to serve its full purpose. This will be implemented through further learning.
-
-* The Join page will soon enough be a full operational Sign-Up form. All gyms across the United Kingdom are currently closed due to a worldwide virus outbreak.
+* The Join page will soon enough be a full operational Sign-Up form. All gyms across the United Kingdom are currently closed due to a global pandemic.
 When the sanctions against the British public have been lifted then a form shall be put in place for users to fill in. Here users will be able to enter their 
 Name, Age, Sexual Orientation etc.. and they'll also be able to choose which membership package they wish to employ.
 
@@ -253,7 +304,7 @@ with index.html (d-block mx-auto) in the image's class tag. Soon all of the marg
 implemented on images and text.
  ---
 
-  ## **TECHNOLOGIES USED**
+  ## **TECHNOLOGIES USED** <a name="technologies"></a>
 
 1. HTML5
 
@@ -297,9 +348,9 @@ implemented on images and text.
 
     ---
 
-## **TESTING**
+## **TESTING** <a name="testing"></a>
 
-### **HEADER**
+### **HEADER** <a name="head-test"></a>
 
 The website can be navigated using the navigation links at the top right hand side of the navigation bar. Each link has been tested across all pages and each link 
 takes you to the correct page. The Just Gym logo and title both act as links back to the Home Page. The Just Gym logo also includes a @keyframes hero-zoom which
@@ -310,7 +361,7 @@ currently on, the Font Awesome icon next to the link text will show as blue inst
 In addition to this, the current page's navigation link will also have underlined text. As before, this has been tested and is true across all Just Gym web pages.
 The header acts responsively across all resolutions.
 
-### **HOME PAGE**
+### **HOME PAGE** <a name="home-test"></a>
 
 The user is presented with a landing page (Home page). All images and text are central. There is a 'Join Now' button in the top banner which when clicked diverts the user
 to the Join page. This works perfectly. At the bottom right hand side of the screen there is a 'Back to top?' line of text with a Font Awesome arrow icon. When a user 
@@ -318,14 +369,14 @@ hovers their mouse over the icon it pulsates upwards. When a user clicks on the 
 to small sized screens, the 'What We Offer' image is split into four separate images so that the text is easier to read on smaller devices. The Home page acts responsively 
 across all resolutions.
 
-### **ABOUT PAGE**
+### **ABOUT PAGE** <a name="about-test"></a>
 
 The user is presented with the About page. All images and text are central. At the bottom right-hand side of the screen there is a 'Back to top?' line of text with a Font 
 Awesome arrow icon. When a user hovers their mouse over the icon it pulsates upwards. When a user clicks on the link they are directed back to the top of the page. When the 
 About page drops its resolution to small sized-screens, the 'connect-img' depicting two friends talking has been blocked from view because it wasn't aesthetically pleasing
 to the eye. The Home page acts responsively across all resolutions.
 
-### **GALLERY PAGE**
+### **GALLERY PAGE** <a name="gallery-test"></a>
 
 The user is presented with the Gallery page. All images are parallel with perfect padding. Each image is nested in a thumbnail. When a user's mouse hovers over the thumbnail
 a shadow border appears around the image. This makes it easy for the user to distinguish which image they are targeting. When a user clicks on an image a new tab is opened and 
@@ -335,7 +386,7 @@ clicks on the link they are directed back to the top of the page. When the Galle
 two columns they are now presented in one single column. This makes it easier for users to view the images on a mobile device. The Gallery page acts responsively across all 
 resolutions.
 
-### **CLASSES PAGE**
+### **CLASSES PAGE** <a name="classes-test"></a>
 
 The user is presented with the Classes page. All images and text are central. Everything is parallel and as it should be. There is a paragraph on the right-hand side of the
 screen, this paragraph contains some bold text stating 'get in touch!'. This text is actually a link to the Contact page. When a user clicks this link they are directed to 
@@ -343,7 +394,7 @@ the Contact page. The link works as expected. When a user hovers over this link,
 At the bottom right-hand side of the screen there is a 'Back to top?' line of text with a Font Awesome arrow icon. When a user hovers their mouse over the icon it pulsates 
 upwards. When a user clicks on the link they are directed back to the top of the page. The Classes page acts responsively across all resolutions.
 
-### **CONTACT PAGE**
+### **CONTACT PAGE** <a name="contact-test"></a>
 
 The user is presented with the Contact page. To the right side of the middle banner there is a contact form. This form consists of five text fields and one button and a check-box. 
 Firstly each text field has the ability to be written in. There is an HTML code that is in place to make sure the Name, E-mail, and Subject fields are 'required'. Unfortunately this code
@@ -352,14 +403,12 @@ thought it was best to include a Modal feature when the 'Send' button is clicked
 did this because it was best to have a functional button rather than an inactive button. No actual e-mail is sent when the 'Send' button is clicked. There is also a 'Send me a
 copy of this message' check-box under the form. When clicked the box is filled with a tick and the colour green. This has been tested and works perfectly, although no actual e-mail
 is sent. This has been discussed in *FEATURES LEFT TO IMPLEMENT* and a plan is in place to correct the issue. Below the contact form are four Font Awesome icons. These icons act 
-in the same way as the Footer icons. They change colour when interacted with and they direct you to four different social media sites: Facebook, Instagram, Twitter and YouTube.
+in the same way as the Footer icons. They change colour when interacted with and they direct you to four different social media sites: Facebook, Instagram, Twitter, and YouTube.
 Each link has been tested and each link takes you to the correct page. Located in the bottom banner the user will find an embedded Google Map image. This is an interactive map
-that lets you move it around. The map isn't perfect because the bottom of it is slightly cropped out. The map also isn't 100% responsive. This has been discussed in *FEATURES LEFT 
-TO IMPLEMENT* and a plan is in place to correct the issue. At the bottom right-hand side of the screen there is a 'Back to top?' line of text with a Font Awesome arrow icon. When a 
-user hovers their mouse over the icon it pulsates upwards. When a user clicks on the link they are directed back to the top of the page. The Classes page acts responsively across 
-all resolutions apart from the mentioned Google Map.
+that lets you move it around. At the bottom right-hand side of the screen there is a 'Back to top?' line of text with a Font Awesome arrow icon. When a user hovers their mouse 
+over the icon it pulsates upwards. When a user clicks on the link they are directed back to the top of the page. The Classes page acts responsively across all resolutions.
 
-### **JOIN PAGE**
+### **JOIN PAGE** <a name="join-test"></a>
 
 The user is presented with the Join page. There are only really three major things to test on the Join page if you ignore the Header and Footer. Located in the Corona banner (bottom
 banner) there are two links nested within the paragraph text. The first is a Contact Us link. This a link to the Contact page. When a user clicks this link they are directed to the 
@@ -369,7 +418,7 @@ tab in the user's browser and is presented with the NHS website. This has been t
 to top?' line of text with a Font Awesome arrow icon. When a user hovers their mouse over the icon it pulsates upwards. When a user clicks on the link they are directed back to the 
 top of the page. The Classes page acts responsively across all resolutions.
 
-### **FOOTER**
+### **FOOTER** <a name="foot-test"></a>
 
 Similar to the Header, the Footer also has navigation links. These links are Home, Contact, and Join. They are located to the left-hand side of the Footer. Each link 
 has been tested across all Just Gym web pages and each link navigates you to the correct page. Each of these links increase in size slightly when a user hovers their #
@@ -383,7 +432,7 @@ on the far right-hand side the user will find a small line of text which contain
 it activates a shadow effect on the text which gives the effect of the text being bolder. This has been tested and is true across all Just Gym web pages. The header acts 
 responsively across all resolutions.
 
-### **DISPLAY TESTING**
+### **DISPLAY TESTING** <a name="display-test"></a>
 
 The Just Gym website has been tested using (all on 18" Dell XPS with Windows 10 + on an external 30" display):
 
@@ -397,16 +446,16 @@ The Just Gym website has been tested using (all on 18" Dell XPS with Windows 10 
 * Internet Explorer 10 - via [Cloud Browser](https://www.ieonchrome.com/)
 * Internet Explorer 11 - via [Cloud Browser](https://www.ieonchrome.com/)
 
-### **IMAGE SIZE REDUCTION**
+### **IMAGE SIZE REDUCTION** <a name="size"></a>
 
 All of Just Gym's images have been run though [Tiny PNG](https://tinypng.com/) to drastically reduce their file size. This will ultimately offer a better user 
 experience due to loading times being cut short.
 
-### **SPELLING & GRAMMAR**
+### **SPELLING & GRAMMAR** <a name="spell"></a>
 
 All of Just Gym's textual content including this Readme file has been run through [Grammarly](https://www.grammarly.com) to check for any spelling and grammar mistakes.
 
-### **CODE VALIDATION**
+### **CODE VALIDATION** <a name="validate"></a>
 
 The website's CSS code has been tested for irrelevant code using the Chrome Developer Tool 'Coverage'.
 Several lines of unused code was identified and subsequently removed during this process.
@@ -418,11 +467,11 @@ The website has also been tested via the [W3C Markup Validation Service](https:/
 
 ---
 
-## **DEPLOYMENT**
+## **DEPLOYMENT** <a name="deployment"></a>
 
 [Github](https://github.com/) Pages has been used to deploy the Just Gym website.
 
-#### **CONFIGURE GITHUB PAGES**
+#### **CONFIGURE GITHUB PAGES** <a name="pages"></a>
 
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, 
 and publishes a website. Just Gym's website has been successfully hosted by GitHub Pages by following these processes:
@@ -433,7 +482,7 @@ and publishes a website. Just Gym's website has been successfully hosted by GitH
 4. Locate Source's dropdown menu and select 'Master Branch'.
 5. After a short period of time, a link will become available above. Just Gym's link is: [Just Gym](https://webslinger88.github.io/Milestone-P1/).
 
-#### **CLONING REPOSITORY**
+#### **CLONING REPOSITORY** <a name="cloning"></a>
 
 1. Navigate to the Github remote repository: [WebSlinger88](https://github.com/WebSlinger88/Milestone-P1).
 2. Click 'Clone or Download'.
@@ -445,15 +494,15 @@ and publishes a website. Just Gym's website has been successfully hosted by GitH
 
 ---
 
-## **CREDITS**
+## **CREDITS** <a name="credits"></a>
 
 Various websites were used for Just Gym's website to become what it is today. All content displayed is part of the public domain.
 
-### **CONTENT**
+### **CONTENT** <a name="content"></a>
 
 * All textual content on the Just Gym website was written by [Lewis Wheeler](https://www.linkedin.com/in/lewis-wheeler-aa91791a0/) - Just Gym's Full Stack Web Developer.
 
-### **MEDIA**
+### **MEDIA** <a name="media"></a>
 
 * Imagery:
 
@@ -471,7 +520,7 @@ Various websites were used for Just Gym's website to become what it is today. Al
 
 ---
 
-### **ACKNOWLEDGEMENTS**
+### **ACKNOWLEDGEMENTS** <a name="thanks"></a>
 
 Inspiration was used in various locations across the world wide web. Please see below some of the key sources used to help develop Just Gym.
 
