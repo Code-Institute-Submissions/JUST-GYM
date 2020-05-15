@@ -441,21 +441,21 @@
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 8rem;
+    margin-left: 5rem;
 }
 
 .classes-slogan-2{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 30rem;
+    margin-left: 22rem;
 }
 
 .classes-slogan-3{
     font-family: "Rajdhani", "roboto";
     font-size: 1.875rem;
     text-transform: uppercase;
-    margin-left: 36rem;
+    margin-left: 27rem;
 }
 
 .classes-para-1{
@@ -488,7 +488,6 @@ margin-bottom: 2rem;
 .day{
     background-color: #eae9fb;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -505,7 +504,6 @@ margin-bottom: 2rem;
 .pink{
     background-color: #f16b84;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -519,7 +517,6 @@ margin-bottom: 2rem;
 .red{
     background-color: #955029;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -533,7 +530,6 @@ margin-bottom: 2rem;
 .orange{
     background-color: #f5841f;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -547,7 +543,6 @@ margin-bottom: 2rem;
 .blue{
     background-color: #005b9b;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -561,7 +556,6 @@ margin-bottom: 2rem;
 .green{
     background-color: #67aa1c;
     height: 5rem;
-    width: 10.3rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
     font-family: "Rajdhani", "roboto";
@@ -574,8 +568,7 @@ margin-bottom: 2rem;
 
 .white{
     background-color: #ffffff;
-   height: 5rem;
-    width: 10.3rem;
+    height: 5rem;
     border: 3px solid #ffffff;
     background-clip: padding-box;
 }
@@ -610,10 +603,8 @@ margin-bottom: 2rem;
 
 .contact-us-img{
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 /*---------- Middle Banner ----------*/
@@ -716,34 +707,6 @@ margin-bottom: 2rem;
     color: #00b050;
     font-size: 1rem;
 }
-
-/*--- Google Map ---*/
-.google-maps {
-        position: relative;
-        padding-bottom: 20%;
-        overflow: hidden;
-        margin-bottom: 2rem;
-    }
-    
-    .google-maps iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 75rem !important;
-        height: 21.875rem !important;
-    }
-
-    @media (max-width: 720px) {
-      .google-maps {
-        position: relative;
-        padding-bottom:50%;
-        height: 0;
-        overflow: hidden;
-    }
-    }
-    /*The above code was used from the below site to help with embedding google maps*/
-/*Credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
-
 
 /*----------------------- Join Page -----------------------*/
 
@@ -1486,14 +1449,12 @@ margin-top: 1rem;
 .day{
     font-size: 1rem;
     padding: 25px 0;
-    
 }
 
 .pink{
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
-  
 }
 
 .pink span{
@@ -1504,7 +1465,6 @@ margin-top: 1rem;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
-    
 }
 
 .red span{
@@ -1515,7 +1475,6 @@ margin-top: 1rem;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
-  
 }
 
 .orange span{
@@ -1526,7 +1485,6 @@ margin-top: 1rem;
     font-size: 0.4rem;
     padding: 20px 10px;
     line-height: 10px;
-  
 }
 
 .blue span{
@@ -1537,7 +1495,6 @@ margin-top: 1rem;
     font-size: 0.4rem;
     padding: 20px 6px;
     line-height: 10px;
-  
 }
 
 .green span{
