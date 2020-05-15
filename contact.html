@@ -80,8 +80,6 @@
 	<!------------------------- Main Content ------------------------->
 	<section>
 
-		<!-------Upper Banner------->
-
 		<!--Title-->
 		<div class="container-fluid contact-banner">
 
@@ -91,6 +89,8 @@
 				</div>
 			</div>
 		</div>
+
+		<!-------Upper Banner - Custom Light Blue bg - One Row/Two Columns - Contact us image and Contact us text - Image and text are responsive and justified------->
 
 		<!--Contact Us Image-->
 		<div class="container-fluid contact-banner">
@@ -117,31 +117,36 @@
 				</div>
 			</div>
 
-			<!-------Middle Banner------->
+			<!-------Middle Banner - White bg - One Row/Two Column - Image of woman with headset and Contact form (with Button, Modal, & Social Links------->
 
-			<!--Call Woman-->
+			<!--Call Woman Image-->
 			<div class="container-fluid bg-contact">
+
 				<div class="row justify-content-around">
+
 					<div class="col-lg-5 col-sm-12 col-md-5">
 						<img class="contact-woman d-block mx-auto img-fluid" src="./assets/images/contact/contact-woman.jpg" alt="contactWoman">
                             </div>
-						<div class="col-lg-5 col-sm-12 col-md-5">
 
-							<!-------Contact Form------->
+						
+                    <!-------Contact Form - Inviting message - 5 Fields - One Checkbox - One Button------->
+                        <div class="col-lg-5 col-sm-12 col-md-5">
+
 							<form class="text-center p-5" action="#!">
-
+                                
+                                <!-- Invite Message -->
 								<p class="h4 mb-4 form-text"><strong>pop us a message</strong></p>
 
-								<!-- Name -->
+								<!-- Name - Text field - Required field currently disabled due to Modal code -->
 								<input type="text" id="name" class="form-control mb-4 form-text" placeholder="Name" required>
 
-								<!-- Email -->
+								<!-- Email - Email field - Required field currently disabled due to Modal code  -->
 								<input type="email" id="email" class="form-control mb-4 form-text" placeholder="E-mail" required>
 
-								<!-- Phone -->
+								<!-- Phone - Number field -->
 								<input type="tel" id="phone" class="form-control mb-4 form-text" placeholder="Phone">
 
-								<!-- Subject -->
+								<!-- Subject - Drop down choice field - Required field currently disabled due to Modal code -->
 								<label class="form-text"><strong>subject</strong></label>
 								<select class="browser-default custom-select mb-4 form-text" required>
                                     <option value="" disabled selected>choose option</option>
@@ -151,21 +156,21 @@
                                     <option value="4">opening times</option>
                                 </select>
 
-								<!-- Message -->
+								<!-- Message - Text field - Required field currently disabled due to Modal code  -->
 								<div class="form-group">
 									<textarea class="form-control rounded-0 form-text" id="message" rows="3" placeholder="Message" required></textarea>
 								</div>
 
-								<!-- Copy -->
+								<!-- Copy - Check box - Ultimately will copy e-mail to sender - This is a future function-->
 								<div class="custom-control custom-checkbox mb-4">
 									<input type="checkbox" class="custom-control-input center" id="copy">
 									<label class="custom-control-label" for="copy"><span class="form-text">Send me a copy of this message</span></label>
 								</div>
 
-								<!-- Send button -->
+								<!-- Send button - Button currently obeys Modal - Type changed from Submit to Button - Disabled required fields - Future function -->
 								<button type="button" class="btn btn-success btn-block form-button" data-toggle="modal" data-target="#success-modal">Send</button>
 
-                                <!-- Modal -->
+                                <!-- Modal - Pop up message when Send button is clicked - This will be replaced in future with Java Script Alerts -->
                                 <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                          <div class="modal-content">
@@ -189,7 +194,7 @@
                                 <!--The above code was used from the below site to add a modal message when clicking form button-->
 								<!--Credit: https://getbootstrap.com/docs/4.4/components/modal/-->
 
-								<!-- Social Links -->
+								<!-- Social Links - Font Awesome icons - Hover.css icons - Direct to new tab and social media website-->
 								<p class="form-text">or contact us here:</p>
 
 								<div class="contact-social">
@@ -218,7 +223,7 @@
 					</div>
 				</div>
 
-				<!-------Lower-Banner------->
+				<!-------Lower-Banner - White bg------->
 
 				<!--Title-->
 				<div class="container-fluid bg-contact">
@@ -230,7 +235,7 @@
 					</div>
 				</div>
 
-				<!--Google Map-->
+				<!--Google Map - Google Map Interactive Image - Not sitting right - Future function to include Java Script and to make this responsive-->
 				<div class="container-fluid bg-contact">
 
 					<div class="row offset-1 justify-content-center">
@@ -246,7 +251,7 @@
 				<!--The above code was created by using the help of the below video-->
 				<!--Credit: https://www.youtube.com/watch?v=LoOb3jSnEw0&feature=youtu.be"-->
 
-				<!--Address-->
+				<!--Address - Text and Font Awesome icons-->
 				<div class="container-fluid bg-contact">
 
 					<div class="row justify-content-center">
