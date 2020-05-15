@@ -458,17 +458,21 @@
     margin-left: 36rem;
 }
 
-.classes-para{
+.classes-para-1{
     font-family: "Rajdhani", "roboto";
     color: #4c4c4c;
-    text-align: center;  
 }
 
-.classes-para span{
+.classes-para-2{
+    font-family: "Rajdhani", "roboto";
     color: #4c4c4c;
 }
 
-.classes-para span:hover{
+.classes-para-2 span{
+    color: #4c4c4c;
+}
+
+.classes-para-2 span:hover{
     text-shadow:0 0 1px #4c4c4c;
 }
 
@@ -999,7 +1003,7 @@ padding-top: 2.188rem;
 
 @media (max-width: 1330px) {
 
-/*---------- Join Page ----------*/
+/*---------- Classes Page ----------*/
 
 .classes-slogan-1{
     margin-top: 2rem;
@@ -1015,9 +1019,16 @@ padding-top: 2.188rem;
     margin-left: 12rem;
     margin-top: 1rem;
 }
+}
 
-.classes-para{
-    margin-top: 2rem;
+@media (min-width: 1330px) {
+
+.classes-para-1{
+    text-align: center !important;
+}
+
+.classes-para-2{
+    text-align: center !important;
 }
 
 }
