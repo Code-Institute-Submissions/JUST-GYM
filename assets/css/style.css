@@ -36,7 +36,6 @@
 
 #gym-image{
     width: 7.5rem;
-    height: 7.5rem;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -57,7 +56,6 @@
 
 .main-title-text{
     font-family: "Rajdhani", "roboto";
-    font-weight: 300;
     font-size: 3.2rem;
     color:#4c4c4c;
     text-transform: uppercase;
@@ -236,7 +234,6 @@
 
 .about-who-text{
     background-color: #f8f8f8;
-    width: 100%;
     height: 5rem;
 }
 
@@ -274,7 +271,6 @@
 }
 
 .about-what-text{
-    width: 100%;
     height: 5rem;
 }
 
