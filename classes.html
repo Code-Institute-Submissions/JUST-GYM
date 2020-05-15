@@ -15,6 +15,10 @@
 	<title>JUST GYM</title>
 </head>
 
+<!--The above code links this workspace to outside sources of data. The first three links are for Bootstrap, Font Awesome, and Hover.css respectively-->
+<!--Without these links, no Bootstrap, Font Awesome or Hover code will work because the HTML file cannot reach the outside source-->
+<!--The fourth link links this HTML file to the style.css file so that the HTML file can be styled-->
+
 <body>
 
 	<!------------------------- Header ------------------------->
@@ -22,19 +26,19 @@
 
 		<nav class="navbar navbar-dark bgnavcolor navbar-expand-xl">
 
-			<!--Company Logo & Title-->
+			<!--Company Logo & Title - Both company logo and title are links to the index.html file-->
 			<a href="index.html" style="text-decoration:none;"><img id="gym-image" src="./assets/images/header/gym-logo-1.png" alt="logo">
 				<p class="main-title-text">just gym</p>
 			</a>
 
-			<!--Dropdown Menu-->
+			<!--Dropdown Menu - The hamburger dropdown menu appears when medium screen sizes are displayed -->
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-				<!--Navigation Menu-->
+				<!--Navigation Menu - Six navigation links to the left of the navbar. Each has a Font Awesome icon.-->
 				<ul class="navbar-nav ml-auto">
 
 					<li class="nav-item menuitem">
