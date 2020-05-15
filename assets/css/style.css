@@ -180,14 +180,14 @@
 
 .treadmill-img{
     width: 38.063rem;
-    height: 21.625rem;
+    height: auto;
     margin-bottom: 2.813rem;
     border-radius: 5%;
 }
 
 .hi-five-img{
     width: 38.063rem;
-    height: 21.625rem;
+    height: auto;
     margin-bottom: 2.813rem;
     border-radius: 5%;
 }

@@ -247,6 +247,10 @@ important advice regarding the current world situation.
 When the sanctions against the British public have been lifted then a form shall be put in place for users to fill in. Here users will be able to enter their 
 Name, Age, Sexual Orientation etc.. and they'll also be able to choose which membership package they wish to employ.
 
+* Currently the there is too much code written within the style.css file. In the future the code will be reduced, and simplified Bootstrap HTML code
+will be used instead. For example all images have just had their style.css (display: block; margin-left: auto; margin-right: auto;) codes removed and replaced 
+with index.html (d-block mx-auto) in the image's class tag. Soon all of the margins and padding will be replaced by simpler Bootstrap code. This will be
+implemented on images and text.
  ---
 
   ## **TECHNOLOGIES USED**
