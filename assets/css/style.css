@@ -183,9 +183,6 @@
     height: 21.625rem;
     margin-bottom: 2.813rem;
     border-radius: 5%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hi-five-img{
@@ -193,9 +190,6 @@
     height: 21.625rem;
     margin-bottom: 2.813rem;
     border-radius: 5%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*------- Lower Banner -------*/
@@ -203,18 +197,12 @@
 .offer-img{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .offer-split-1{
     width: 37.771rem;
     height: 10rem;
     margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2.813rem;
 }
 
@@ -222,27 +210,18 @@
     width: 32.771rem;
     height: 10rem;
     margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .offer-split-3{
     width: 32.771rem;
     height: 10rem;
     margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .offer-split-4{
     width: 32.771rem;
     height: 10rem;
     margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*--------------------- About Page ---------------------*/
@@ -283,9 +262,6 @@
     height: auto;
     border-radius: 5%;
     margin-bottom: 2rem;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -359,9 +335,6 @@
     height: auto;
     border-radius: 5%;
     margin-bottom: 2rem;
-     display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .class1-img{
@@ -369,9 +342,6 @@
     height: auto;
     border-radius: 5%;
     margin-bottom: 2rem;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .connect-img{
@@ -379,18 +349,12 @@
     height: auto;
     border-radius: 5%;
     margin-bottom: 2rem;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .healthy-img{
     width: 80rem;
     height: auto;
     border-radius: 5%;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*--------------------- Gallery Page ---------------------*/
@@ -461,22 +425,16 @@
 
 .fists-img{
     width: 37.771rem;
-    height: auto;
+    height: 20rem;
     border-radius: 5%;
     margin-bottom: 2rem;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .yoga-img{
     width: 37.771rem;
-    height: auto;
+    height: 20rem;
     border-radius: 5%;
     margin-bottom: 2rem;
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .classes-slogan-1{
@@ -519,9 +477,6 @@
 .choose-class-image{
 margin-top: 2rem;
 margin-bottom: 2rem;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*---------- Classes Table ----------*/
@@ -665,9 +620,6 @@ display: block;
     height: auto;
     border-radius: 5%;
     margin-top: 7rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*--- Contact Form ---*/
@@ -1103,6 +1055,7 @@ padding-top: 2.188rem;
     margin-left: 10rem;
 }
 
+
 /*---------- Contact Page ----------*/
 
 .contact-para{
@@ -1280,7 +1233,7 @@ margin-left: 7rem;
 .fa-download{
     margin-top: 5px;
 }
-}
+
 
 /*-----------------------------------------------*/
 @media (min-width: 765px) and (max-width: 1000px) {
@@ -1415,6 +1368,12 @@ margin-top: 2rem;
 
 .what-we-do{
     margin-top: 1rem;
+}
+
+/*---------- Classes Page ----------*/
+
+.yoga-img{
+    height: auto;
 }
 
 }

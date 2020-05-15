@@ -287,6 +287,10 @@ Name, Age, Sexual Orientation etc.. and they'll also be able to choose which mem
 
     * Used to create Just Gym's Mock Ups, Class Timetable PDF, and select PNG and JPG files.
 
+8. [Tiny PNG](https://tinypng.com/)
+
+    * Used to reduce the size of PNG and JPG files.
+
     ---
 
 ## **TESTING**
@@ -388,6 +392,11 @@ The Just Gym website has been tested using (all on 18" Dell XPS with Windows 10 
 * Safari on iOS 13.4.1 (Apple iPhone 7 Plus)
 * Internet Explorer 10 - via [Cloud Browser](https://www.ieonchrome.com/)
 * Internet Explorer 11 - via [Cloud Browser](https://www.ieonchrome.com/)
+
+### **IMAGE SIZE REDUCTION**
+
+All of Just Gym's images have been run though [Tiny PNG](https://tinypng.com/) to drastically reduce their file size. This will ultimately offer a better user 
+experience due to loading times being cut short.
 
 ### **SPELLING & GRAMMAR**
 
