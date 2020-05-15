@@ -1088,6 +1088,10 @@ margin-left: 7rem;
     margin-left: 2rem;
 }
 
+.corona-para-text{
+    text-align: justify;
+}
+
 }
 
  /*---------------------------------------------------------*/
@@ -1284,7 +1288,7 @@ font-size: 1.9rem;
 /*---------- About Page ----------*/
 
 .connect-img{
-    display: none;
+    display: none !important;
 }
 
 }
